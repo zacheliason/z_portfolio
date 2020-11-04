@@ -8,12 +8,16 @@ Vue.config.productionTip = false;
 let data = {
   items: dataset,
   current: {
-    id: '2',
-    title: 'Bambina Poster',
-    img: 'Jacob+Elise.jpg',
-    alt: ''
+    id: '',
+    name: '',
+    category: '',
+    img: [],
+    orientation: [],
+    description: '',
+    date: '',
   },
-  showModal: true,
+  showModal: false,
+  selectCategory: '',
 }
 
 new Vue({

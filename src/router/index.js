@@ -3,6 +3,8 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Portfolio from '../views/Portfolio.vue';
 import About from '../views/About.vue';
+import WebCode from '../views/WebCode.vue';
+
 
 Vue.use(VueRouter);
 
@@ -20,6 +22,11 @@ const routes = [{
     path: '/portfolio',
     name: 'Portfolio',
     component: Portfolio
+  },
+  {
+    path: '/webcode',
+    name: 'WebVode',
+    component: WebCode
   },
 ];
 

@@ -1,18 +1,9 @@
 <template>
 <div class="wrapper">
-  <div class="items">
-    <div class="item" v-for="item in items" :key="item.id">
-      <div class="image">
-        <a href="#">
-          <img :src="'/images/' + item.image[0]">
-        </a>
-      </div>
-      <div class="category">
-        <p>.{{item.category[0]}}</p>
-      </div>
+  <div class="items" id="items" ref="items">
+    <div class="item" v-for="item in items" :key="item.id" @click="modalSwitchOn(item)" v-bind:style="'background: url(/images/' + item.image[0] + ') no-repeat center top;'">
+      <div class="onHover">{{item.name}}</div>
     </div>
-  </div>
-  <div class="flexdiv">
     <modalViewer :current="current" />
   </div>
 </div>
@@ -26,22 +17,67 @@ export default {
     modalViewer,
   },
   props: {
-    items: Array
+    items: Array,
   },
   data() {
     return {
-
     }
   },
   computed: {
     current() {
       return this.$root.$data.current;
     },
+    showModal() {
+      return this.$root.$data.showModal;
+    },
+  },
+  methods: {
+    modalSwitchOn(item) {
+      this.$root.$data.current.id = item.id;
+      this.$root.$data.current.name = item.name;
+      this.$root.$data.current.description = item.description;
+      this.$root.$data.current.category = item.category;
+      this.$root.$data.current.img = item.image;
+      this.$root.$data.current.date = item.date;
+      this.$root.$data.showModal = true;
+    },
   }
 }
 </script>
 
 <style lang="css" scoped>
+.art,.design,.photos,.all {
+  padding: .5em 1em;
+  display: inline-block;
+  background-color: white;
+}
+.item:hover .onHover{
+  opacity: 100%;
+}
+.onHover {
+  opacity: 0;
+  position: relative;
+  z-index: 100000;
+  bottom: 2em;
+  z-index: 100;
+  left: 1.5em;
+  color: red;
+  text-align: left;
+  font-family: bc-novatica-cyr, sans-serif;
+  font-weight: bolder;
+}
+.visually-hidden {
+    width: 0;
+    height: 0;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.image img {
+  bottom: 100%;
+}
 
 .flexdiv {
   flex-direction: column;
@@ -54,24 +90,30 @@ img {
   height: 100%;
   overflow: hidden;
 }
-.image {
-  height: 80%;
-  width: 100%;
-  object-fit: cover;
-  overflow: hidden;
-  text-align: center;
-}
+
 .items {
-  column-count: 3;
-  column-gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1em;
   overflow: hidden;
   width: 70%;
   text-align: center;
   margin: 0 auto;
+  height: auto;
+  flex-wrap: wrap;
 }
 .item {
-  height: 400px;
-  width: 300px;
+  background-color: red;
+  display: inline-block;
+  margin: 0 0 1em 0;
+  width: calc((100% - 2em) / 3);
+  padding-top: 40%;
+  height: 0;
+  background: url(/images/iceberg.jpg);
+  background-size: cover !important;
+  overflow: hidden;
+  cursor: pointer;
 }
 .category {
   color: red;
@@ -82,5 +124,9 @@ img {
 }
 img:hover {
   height: 120%;
+  transition: .5s;
+}
+img {
+  transition: .5s;
 }
 </style>
