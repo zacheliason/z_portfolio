@@ -24,13 +24,11 @@ export default {
   width: 100vw;
   padding: 0;
   z-index: 100;
-  color: blue !important;
-
+  color: rgb(0,255,255) !important;
 }
 .link a:hover {
   font-size: 4em;
-  color: red !important;
-
+  color: rgb(255,0,255) !important;
 }
 .sites {
   display: flex;
@@ -52,5 +50,12 @@ export default {
   ul {
     text-align: left;
     width: 50vw;
+  }
+  @media screen and (max-width: 620px) {
+    .sites {
+      width: 100vw;
+      justify-content: unset;
+      font-size: 1em;
+    }
   }
 </style>

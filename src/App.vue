@@ -1,13 +1,16 @@
 <template>
 <div id="app">
   <div id="nav">
-      <router-link id="zach" to="/">Zach Eliason</router-link>
+    <router-link id="zach" class="showOnMobile" to="/">Home</router-link>
+    <router-link id="zach" class="hideOnMobile" to="/">Zach Eliason</router-link>
     <router-link id="about" to="/about">About</router-link>
-    <router-link id="portfolio" to="/portfolio">Design Portfolio</router-link>
+    <router-link id="portfolio" class="showOnMobile" to="/portfolio">Portfolio</router-link>
+    <router-link id="portfolio" class="hideOnMobile" to="/portfolio">Design Portfolio</router-link>
     <router-link id="coding" to="/webcode">Web Code</router-link>
 
   </div>
   <router-view />
+  <footer> <a target="_blank" href="https://github.com/zippy-dog/z_portfolio">Github</a></footer>
 </div>
 </template>
 
@@ -21,7 +24,7 @@
 #zach {
   font-family: bc-novatica-cyr, sans-serif;
   font-weight: 700;
-  color: red !important;
+  color: rgb(255,0,255) !important;
   mix-blend-mode: multiply;
   text-decoration: none;
 
@@ -34,7 +37,7 @@
 #portfolio {
   font-family: bc-novatica-cyr, sans-serif;
   font-weight: 700;
-  color: red !important;
+  color: rgb(255,0,255) !important;
   mix-blend-mode: multiply;
   text-decoration: none;
 
@@ -47,7 +50,7 @@
 #about {
   font-family: bc-novatica-cyr, sans-serif;
   font-weight: 700;
-  color: red !important;
+  color: rgb(255,0,255) !important;
   mix-blend-mode: multiply;
   text-decoration: none;
 
@@ -56,11 +59,30 @@
   bottom: -.2em;
   left: 0;
 }
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer a:hover {
+  font-style: italic;
+  font-size: 3em;
+}
+footer a {
+  font-family: bc-novatica-cyr, sans-serif;
+  font-weight: 700;
+  color: rgb(255,0,255) !important;
+  mix-blend-mode: multiply;
+  text-decoration: none;
+  position: fixed;
+  font-size: 2.5em;
+  bottom: -.2em;
+}
+
 
 #coding {
   font-family: bc-novatica-cyr, sans-serif;
   font-weight: 700;
-  color: red !important;
+  color: rgb(255,0,255) !important;
   mix-blend-mode: multiply;
   text-decoration: none;
 
@@ -86,21 +108,6 @@
   z-index: 10000;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
-
-<style>
 * {
   box-sizing: border-box;
 }
@@ -117,7 +124,7 @@ h1 {
 
 p {
   font-family: bc-novatica-cyr, sans-serif;
-  color: red;
+  color: rgb(255,0,255);
   mix-blend-mode: multiply;
 }
 
@@ -125,7 +132,7 @@ a,
 li {
   text-decoration: none;
   font-family: bc-novatica-cyr, sans-serif;
-  color: red;
+  color: rgb(255,0,255);
   list-style-type: none;
 
 }
@@ -137,5 +144,26 @@ body {
 
 #app {
   height: 100%;
+}
+.showOnMobile {
+  opacity: 0 !important;
+}
+
+@media screen and (max-width: 620px) {
+  .showOnMobile {
+    display: inline-block;
+    opacity: 100%!important;
+  }
+  .hideOnMobile {
+    display: none !important;
+  }
+  #about, #coding {
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    bottom: .1em;
+  }
+  footer {
+    bottom: .1em;
+  }
 }
 </style>

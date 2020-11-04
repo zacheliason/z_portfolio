@@ -2,24 +2,24 @@
 <div id="modal" class="modal" v-if="showModal2" ref="modal" @click="modalOff">
   <div class="main">
     <img :id="image" @load="orientation(image)" v-for="image in images" :key="image.id" :src="'/images/' + image ">
-  </div>
-  <div class="sidebar">
-    <div class="object">
-      <div class="buffer">
-        <h1>{{current.name}}</h1>
-      </div>
-      <div class="buffer">
-        <p>{{current.date}}</p>
-      </div>
-      <div class="buffer">
-        <p>{{current.description}}</p>
-      </div>
-      <div class="buffer">
-        <p>Files: {{current.img.length}}</p>
-      </div>
-      <div class="buffer">
-        <p class="inline">Tags:</p>
-        <a href="#" v-bind:style="'background-color: ' + getRandomColor()" @click="select(tag)" :class="'tags ' + tag" v-for="tag in tags" :key="tag.id">{{tag}}</a>
+    <div class="sidebar">
+      <div class="object">
+        <div class="buffer">
+          <h1>{{current.name}}</h1>
+        </div>
+        <div class="buffer">
+          <p>{{current.date}}</p>
+        </div>
+        <div class="buffer">
+          <p>{{current.description}}</p>
+        </div>
+        <div class="buffer">
+          <p>Files: {{current.img.length}}</p>
+        </div>
+        <div class="buffer">
+          <p class="inline">Tags:</p>
+          <a href="#" v-bind:style="'background-color: ' + getRandomColor()" @click="select(tag)" :class="'tags ' + tag" v-for="tag in tags" :key="tag.id">{{tag}}</a>
+        </div>
       </div>
     </div>
   </div>
@@ -88,7 +88,7 @@ export default {
     border-radius: 15px;
     padding: 2px 10px;
     font-weight: bolder;
-    margin: 0px 10px 20px 10px;
+    margin: 0px 20px 20px 0px;
   }
   .spacer {
     height: 20px;
@@ -106,11 +106,11 @@ export default {
     width: 100%;
   }
   .modal {
-    height: 100% !important;
+    height: auto;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
-    z-index: 1000;
+    z-index: 10001;
     top: 0;
     left: 0;
     bottom: 0;
@@ -136,7 +136,7 @@ export default {
   }
   .portrait {
     padding: 20px 20px 0 20px;
-    height: calc(100% - 20px);
+    height: calc(100vh - 20px);
   }
   .landscape:last-child,.portrait:last-child {
     padding: 20px 20px 20px 20px;
@@ -167,5 +167,38 @@ export default {
     align-items: center;
     flex-wrap: wrap;
   }
+  @media screen and (max-width: 620px) {
+    .sidebar {
+      text-align: left;
+      border-width: 0;
+      height: auto;
+      position: static !important;
+      display: block;
+      width: 100%;
+      font-size: 1em;
+      color: white;
+    }
+    .object {
+      border-width:0;
+      border-color: white;
+      border-style: solid;
+    }
+    .main {
+      display: block;
+      width: 100%;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      left: 0;
 
+    }
+    .portrait {
+      padding: 20px 20px 0 20px;
+      width: calc(100%);
+      height: unset;
+    }
+    .modal,.main,.sidebar {
+      overflow: scroll;
+    }
+
+  }
 </style>

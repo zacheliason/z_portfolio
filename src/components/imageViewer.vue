@@ -61,7 +61,7 @@ export default {
   bottom: 2em;
   z-index: 100;
   left: 1.5em;
-  color: red;
+  color: rgb(255,0,255);
   text-align: left;
   font-family: bc-novatica-cyr, sans-serif;
   font-weight: bolder;
@@ -104,7 +104,7 @@ img {
   flex-wrap: wrap;
 }
 .item {
-  background-color: red;
+  background-color: rgb(255,0,255);
   display: inline-block;
   margin: 0 0 1em 0;
   width: calc((100% - 2em) / 3);
@@ -116,7 +116,7 @@ img {
   cursor: pointer;
 }
 .category {
-  color: red;
+  color: rgb(255,0,255);
   z-index: 100;
   position: relative;
   bottom: 50px;
@@ -128,5 +128,22 @@ img:hover {
 }
 img {
   transition: .5s;
+}
+@media screen and (max-width: 820px) {
+  .item {
+    width: calc((100% - 1em) / 2);
+    padding-top: 65%;
+    margin: 0 0 2em 0;
+  }
+}
+@media screen and (max-width: 620px) {
+  .item {
+    width: calc((100% - 1em));
+    padding-top: 120%;
+    margin: 0 0 2em 0;
+  }
+  .item:hover .onHover{
+    opacity: 0;
+  }
 }
 </style>
