@@ -75,7 +75,7 @@ function containsObject(obj, list) {
   border-width: 6px 6px 0 0;
   height: 20px;
   width: 20px;
-  border-color: rgb(255,255,0);
+  border-color: rgb(255,0,255);
   border-style: solid;
   transform: rotate(-45deg);
   position: relative;
@@ -87,7 +87,7 @@ function containsObject(obj, list) {
   border-width: 6px 6px 0 0;
   height: 20px;
   width: 20px;
-  border-color: rgb(255,255,0);
+  border-color: rgb(255,0,255);
   border-style: solid;
   transform: rotate(45deg);
   position: relative;
@@ -100,7 +100,7 @@ function containsObject(obj, list) {
   border-width: 6px 6px 0 0;
   height: 20px;
   width: 20px;
-  border-color: rgb(255,255,0);
+  border-color: rgb(255,0,255);
   border-style: solid;
   transform: rotate(-135deg);
   position: relative;
