@@ -122,7 +122,7 @@ let dataset = [{
     id: 16,
     name: "Collages",
     category: ["art", "2020", ],
-    image: ["CollageYellow.jpg","CollageOrange.jpg","B&W.jpg","CollageBlue.jpg",],
+    image: ["CollageYellow.jpg","CollageOrange.jpg","B&W.JPG","CollageBlue.jpg",],
     date: new Date(2020, 2),
     description: "Collage pieces done for my DSGN class."
   },
