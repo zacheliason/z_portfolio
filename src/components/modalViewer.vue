@@ -126,7 +126,6 @@ export default {
     height: 100%;
     position: absolute;
     top: 0;
-    z-index: -1;
     overflow: scroll;
     left: 0;
     display: flex;
@@ -167,7 +166,12 @@ export default {
     align-items: center;
     flex-wrap: wrap;
   }
+
   @media screen and (max-width: 620px) {
+    .modal {
+      background-color: rgba(0, 0, 0, 0.9);
+      z-index: 10000;
+    }
     .sidebar {
       text-align: left;
       border-width: 0;
@@ -177,11 +181,20 @@ export default {
       width: 100%;
       font-size: 1em;
       color: white;
+      z-index: 100000;
+
     }
     .object {
       border-width:0;
       border-color: white;
       border-style: solid;
+      z-index: 1000000;
+    }
+    .buffer {
+      z-index: 10000000;
+    }
+    .buffer p {
+      z-index: 100000000;
     }
     .main {
       display: block;
@@ -189,6 +202,7 @@ export default {
       overflow-x: hidden;
       overflow-y: scroll;
       left: 0;
+      z-index: 10000;
 
     }
     .portrait {
