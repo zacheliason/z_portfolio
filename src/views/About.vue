@@ -60,20 +60,6 @@ ul {
 li {
   padding: 20px 0 0 0;
 }
-/*.sidebar {
-  text-align: left;
-  padding: 30px 7% 30px 30px;
-  position: fixed;
-  bottom: 0;
-  top: 0;
-  right: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  width: 50vw;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 2em;
-}*/
 .grid {
   display: flex;
   justify-content: center;
@@ -94,6 +80,7 @@ li {
   flex-wrap: wrap;
   font-size: 2em;
   margin: 0 auto;
+  z-index: 0;
 }
 .sidebar li, .sidebar p {
   color: rgb(0,255,255) !important;
