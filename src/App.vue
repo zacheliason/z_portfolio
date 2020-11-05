@@ -109,7 +109,6 @@ footer a {
 }
 #zach,
 #portfolio {
-  z-index: 1000000000;
 }
 * {
   box-sizing: border-box;
@@ -150,6 +149,7 @@ body {
 }
 .showOnMobile {
   opacity: 0 !important;
+
 }
 
 @media screen and (max-width: 620px) {
