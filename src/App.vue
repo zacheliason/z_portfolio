@@ -155,7 +155,7 @@ body {
 @media screen and (max-width: 620px) {
   .showOnMobile {
     display: inline-block;
-    opacity: 100% !important;
+    opacity: 1.0 !important;
     z-index: 100000;
   }
   .hideOnMobile {
