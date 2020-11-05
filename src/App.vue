@@ -156,7 +156,6 @@ body {
   .showOnMobile {
     display: inline-block;
     opacity: 1.0 !important;
-    z-index: 100000;
   }
   .hideOnMobile {
     display: none !important;
