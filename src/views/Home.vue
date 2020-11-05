@@ -207,6 +207,7 @@ export default {
     animation: unset;
     height: 150vh;
     width: 100vw;
+    z-index: -100000000;
   }
 
 
