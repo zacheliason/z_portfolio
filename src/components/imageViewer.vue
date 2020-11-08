@@ -52,7 +52,7 @@ export default {
   background-color: white;
 }
 .item:hover .onHover{
-  opacity: 100%;
+  opacity: 1.0;
 }
 .onHover {
   opacity: 0;
