@@ -4,7 +4,7 @@ let dataset = [{
     category: ["design", "2020", "digital"],
     image: ["iceberg.jpg", ],
     date: new Date(2020, 1),
-    description: "Promo poster I designed for the Ballard Brief Summit at the Ballard Center."
+    description: "Promo imagery I designed for the Ballard Brief Summit at the Ballard Center."
   },
   {
     id: 2,
@@ -92,7 +92,7 @@ let dataset = [{
     category: ["design", "2020", ],
     image: ["GameNightStory.jpg", ],
     date: new Date(2020, 1),
-    description: "Promo design for an event at The Wall. I don't love this sort of layout but it's here in case any potential employers would like to see it."
+    description: "Promo design for an event at The Wall."
   },
   {
     id: 13,
@@ -173,6 +173,22 @@ let dataset = [{
     image: ["BlueMan.jpg", ],
     date: new Date(2016),
     description: "Inexplicably blue man I painted in my high school art class."
+  },
+  {
+    id: 23,
+    name: "Memory Collage",
+    category: ["art", "2020", "painting", "collage"],
+    image: ["DSGN_Final.jpeg", ],
+    date: new Date(2020,4),
+    description: "This was one of the projects I did for my DSGN class. The theme of this collage was memory crossed with time, combining details from the home I grew up in, such as the outline of a chair, the curve of a music stand, or an old family photo, with elements from watches and other timepieces."
+  },
+  {
+    id: 24,
+    name: "Sketchbook Process",
+    category: ["art", "2020", "sketchbook",],
+    image: ["Sketchbook-6.jpg","Sketchbook-2.jpg","Sketchbook-3.jpg","Sketchbook-4.jpg","Sketchbook-5.jpg","Sketchbook-7.jpg","Sketchbook-8.jpg", ],
+    date: new Date(2020,4),
+    description: "These are some sketches from my latest sketchbook to show process."
   },
 ]
 
