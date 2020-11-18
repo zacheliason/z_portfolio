@@ -160,11 +160,7 @@ body {
   .hideOnMobile {
     display: none !important;
   }
-  #about, #coding {
-    writing-mode: vertical-lr;
-    text-orientation: sideways;
-    bottom: .1em;
-  }
+
   footer {
     bottom: .1em;
   }
