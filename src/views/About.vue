@@ -17,7 +17,7 @@
     <p><span class="bold">Adobe Illustrator, InDesign, Photoshop, Aftereffects, HTML, CSS, Javascript, vuejs, film photography, drawing/painting, & Russian.</span></p>
     <br>
     <p>I have interests in:</p>
-    <p><span class="bold">design, biology, the environment, art, programming, hiking, data visualization, music, photography, math, climbing, gardening, Russian literature, ice-skating, book-binding, & cheese-making.</span></p>
+    <p><span class="bold">biology, design, the environment, art, programming, hiking, data visualization, music, photography, math, climbing, gardening, Russian literature, ice-skating, book-binding, & cheese-making.</span></p>
     <div class="spacer">
 
     </div>

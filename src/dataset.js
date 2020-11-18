@@ -20,7 +20,7 @@ let dataset = [{
     category: ["photo", "film", "b&w", "kiev88", "2020", ],
     image: ["Kiev079.jpg", "Kiev080.jpg", "Kiev081.jpg", "Kiev084.jpg", "Kiev085.jpg", "Kiev088.jpg", ],
     date: new Date(2020, 5),
-    description: "The first roll I shot on my Kiev88. Had some pretty insane light leaks and the turning the focus ring required a few hundred pounds of force but I was able to fix most of those problems after this test roll. There were still some fun shots though."
+    description: "The first roll I shot on my Kiev88. There were some pretty bad light leaks and an especially sticky focus ring but I was able to fix most of those problems after this test roll."
   },
   {
     id: 4,
@@ -28,15 +28,15 @@ let dataset = [{
     category: ["photo", "film", "b&w", "kiev88", "2020", ],
     image: ["Kiev3110.jpg", "Kiev3112.jpg", "Kiev3115.jpg", "Kiev3119.jpg", ],
     date: new Date(2020, 5),
-    description: "I was able to seal the light leaks in the back I used for this roll really well so we saw less of those thankfully in these pictures."
+    description: "I was able to seal the light leaks in the camera back that I used for this roll so we saw less of those thankfully in these pictures."
   },
   {
     id: 5,
     name: "Kiev Color Roll 1",
     category: ["photo", "film", "color", "kiev88", "2020", ],
-    image: ["Kiev3121.jpg", "Kiev3122.jpg", "Kiev3123.jpg", "Kiev3125.jpg", "Kiev3127.jpg", "Kiev3128.jpg", "Kiev3129.jpg", ],
+    image: ["Kiev3122.jpg", "Kiev3121.jpg", "Kiev3123.jpg", "Kiev3125.jpg", "Kiev3127.jpg", "Kiev3128.jpg", "Kiev3129.jpg", ],
     date: new Date(2020, 6),
-    description: "I used a second back for this roll which was not sealed quite as well as I would've hoped. Luckily I didn't mind the leak effects but I will have to watch this one."
+    description: "I used a second camera back for this roll which was not sealed quite as well as I would've hoped. Luckily I didn't mind the leak effects but I will have to watch this one."
   },
   {
     id: 6,
@@ -76,7 +76,7 @@ let dataset = [{
     category: ["art", "printmaking", "2016", ],
     image: ["Print1.jpg", ],
     date: new Date(2016),
-    description: "Linocut from high school days."
+    description: "Linocut from high school."
   },
   {
     id: 11,
@@ -100,7 +100,7 @@ let dataset = [{
     category: ["design", "digital", "animated", "2020"],
     image: ["Final-Animation.gif", ],
     date: new Date(2020, 5),
-    description: "Small Animation made for the Ballard Center's social media. They wanted to depict certain coping mechanisms during quarantine. This one, I believe, was 'taking fashion shots of my sister's outfits every day.'"
+    description: "Small animation made for the Ballard Center's social media. They wanted to depict certain coping mechanisms during quarantine. This one, I believe, was 'taking fashion shots of my sister's outfits every day.'"
   },
   {
     id: 14,

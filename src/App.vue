@@ -10,7 +10,6 @@
 
   </div>
   <router-view />
-  <footer> <a target="_blank" href="https://github.com/zippy-dog/z_portfolio">Github</a></footer>
 </div>
 </template>
 
