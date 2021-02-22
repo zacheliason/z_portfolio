@@ -1,5 +1,7 @@
 <template>
-<div class="home">
+<div class="home" id="subpage">
+
+  <!--
   <div class="containtop">
     <div class="circle ">
     </div>
@@ -60,6 +62,8 @@
 
     </div>
   </div>
+</div>-->
+
 </div>
 </template>
 
@@ -101,7 +105,7 @@ export default {
   height: 50vh;
   width: 50vh;
   border-radius: 1000vh;
-  background-color: rgb(0,255,255);
+  background-color: #742D9B;
   z-index: -1;
   margin: 0;
 }
@@ -110,7 +114,7 @@ export default {
 .square {
   height: 50vh;
   width: 50vh;
-  background-color: rgb(0,255,255);
+  background-color: #742D9B;
   z-index: -1;
   animation: rotate 3s linear infinite;
   margin: 10px;
@@ -196,7 +200,7 @@ export default {
     width: 100vw;
     animation: shrinkm 3s ease-in-out alternate infinite;
     border-radius: 1000vh;
-    background-color: rgb(0,255,255);
+    background-color: #742D9B;
     z-index: -1;
     margin: 0;
   }

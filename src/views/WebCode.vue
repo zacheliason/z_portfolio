@@ -1,5 +1,5 @@
 <template lang="html">
-<div class="sites">
+<div class="sites" id="subpage">
   <ul>
     <li class="link"><router-link class="changed" to="/spotifystreamgraph">Spotify Streamgraph</router-link></li>
 
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "WebCode",
+  name: "Coding",
   components: {
 
   },

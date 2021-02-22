@@ -61,7 +61,7 @@ export default {
   bottom: 2em;
   z-index: 100;
   left: 1.5em;
-  color: rgb(255,0,255);
+  color: #FC440F;
   text-align: left;
   font-family: bc-novatica-cyr, sans-serif;
   font-weight: bolder;
@@ -106,7 +106,7 @@ img {
   flex-wrap: wrap;
 }
 .item {
-  background-color: rgb(255,0,255);
+  background-color: #FC440F;
   display: inline-block;
   margin: 0 0 1em 0;
   width: calc((100% - 2em) / 3);
@@ -118,7 +118,7 @@ img {
   cursor: pointer;
 }
 .category {
-  color: rgb(255,0,255);
+  color: #FC440F;
   z-index: 100;
   position: relative;
   bottom: 50px;

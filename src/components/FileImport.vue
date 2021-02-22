@@ -605,14 +605,7 @@ button:hover {
   background-color: var(--button-background-color--hover);
   border-transition: var(--button-transition--hover);
 }
-.screen {
-  height: 100vh;
-  width: 100vw ;
-  background-color: red;
-  mix-blend-mode: multiply;
-  z-index: 0;
-  position: absolute;
-}
+
 .frontpage {
   height: 100vh;
   width: 100vw;

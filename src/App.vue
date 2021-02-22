@@ -1,102 +1,111 @@
 <template>
 <div id="app">
-  <div id="nav">
+  <div id="nav" @click="this.$root.setTimer" @mouseover="this.$root.fadeSubPage" @mouseout="this.$root.fadeInSubPage">
     <router-link id="zach" class="showOnMobile" to="/">Home</router-link>
     <router-link id="zach" class="hideOnMobile" to="/">Zach Eliason</router-link>
     <router-link id="about" to="/about">About</router-link>
     <router-link id="portfolio" class="showOnMobile" to="/portfolio">Portfolio</router-link>
     <router-link id="portfolio" class="hideOnMobile" to="/portfolio">Design Portfolio</router-link>
-    <router-link id="coding" to="/webcode">Web Code</router-link>
+    <router-link id="coding" to="/coding">Coding</router-link>
 
   </div>
   <router-view />
 </div>
 </template>
+<script type="text/javascript">
 
+/**/
+
+</script>
 <style>
 #id {
   height: 100%;
+}
+#nav {
+  mix-blend-mode: multiply;
+  z-index: 100;
+  position: fixed;
 }
 
 #app {}
 
 #zach {
   font-family: bc-novatica-cyr, sans-serif;
-  font-weight: 700;
-  color: rgb(255,0,255) !important;
-  mix-blend-mode: multiply;
+  font-weight: 800;
+      color: magenta !important;
   text-decoration: none;
 
   position: fixed;
-  font-size: 2.5em;
-  top: -.25em;
-  left: 0;
+  font-size: 3em;
+  top: .2em;
+  left: .45em;
 }
 
 #portfolio {
   font-family: bc-novatica-cyr, sans-serif;
-  font-weight: 700;
-  color: rgb(255,0,255) !important;
-  mix-blend-mode: multiply;
+  font-weight: 800;
+      color: magenta !important;
+  ;
   text-decoration: none;
 
   position: fixed;
-  font-size: 2.5em;
-  top: -.25em;
-  right: 0;
+  font-size: 3em;
+  top: .2em;
+  right: .45em;
 }
 
 #about {
   font-family: bc-novatica-cyr, sans-serif;
-  font-weight: 700;
-  color: rgb(255,0,255) !important;
-  mix-blend-mode: multiply;
+  font-weight: 800;
+      color: magenta !important;
+  ;
   text-decoration: none;
 
   position: fixed;
-  font-size: 2.5em;
-  bottom: -.2em;
-  left: 0;
+  font-size: 3em;
+  bottom: .2em;
+  left: .45em;
 }
 footer {
   display: flex;
   justify-content: center;
 }
 footer a:hover {
-  font-style: italic;
-  font-size: 3em;
+    font-size: 3em;
+  transition: .5s;
 }
 footer a {
   font-family: bc-novatica-cyr, sans-serif;
-  font-weight: 700;
-  color: rgb(255,0,255) !important;
-  mix-blend-mode: multiply;
+  font-weight: 800;
+      color: magenta !important;
+  ;
   text-decoration: none;
   position: fixed;
-  font-size: 2.5em;
-  bottom: -.2em;
+  font-size: 3em;
+  bottom: .2em;
 }
 
 
 #coding {
-  font-family: bc-novatica-cyr, sans-serif;
-  font-weight: 700;
-  color: rgb(255,0,255) !important;
-  mix-blend-mode: multiply;
+  font-family:
+  bc-novatica-cyr, sans-serif;
+  font-weight: 800;     color: magenta !important;
+  ;
   text-decoration: none;
 
   position: fixed;
-  font-size: 2.5em;
-  bottom: -.2em;
-  right: 0;
+  font-size: 3em;
+  bottom: .2em;
+  right: .45em;
 }
 
 #zach:hover,
 #coding:hover,
 #about:hover,
 #portfolio:hover {
-  font-style: italic;
-  font-size: 3em;
+    font-size: 5em;
+  transition: .5s;
+  letter-spacing: 2px;
 }
 
 #zach,
@@ -104,7 +113,9 @@ footer a {
 #about,
 #portfolio {
   padding: -1em;
-  z-index: 10000;
+  z-index: 10000 !important;
+  transition: .5s;
+
 }
 #zach,
 #portfolio {
@@ -120,19 +131,21 @@ html {
 
 h1 {
   font-family: bc-novatica-cyr, sans-serif;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 p {
   font-family: bc-novatica-cyr, sans-serif;
+
   color: rgb(255,0,255);
-  mix-blend-mode: multiply;
+  ;
 }
 
 a,
 li {
   text-decoration: none;
   font-family: bc-novatica-cyr, sans-serif;
+  font-weight: 800;
   color: rgb(255,0,255);
   list-style-type: none;
 
@@ -148,7 +161,25 @@ body {
 }
 .showOnMobile {
   opacity: 0 !important;
+}
 
+
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 620px) {
