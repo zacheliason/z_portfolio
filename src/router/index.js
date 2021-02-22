@@ -4,6 +4,8 @@ import Home from "../views/Home.vue";
 import Portfolio from '../views/Portfolio.vue';
 import About from '../views/About.vue';
 import WebCode from '../views/WebCode.vue';
+import SpotifyStreamgraph from '../views/SpotifyStreamgraph.vue';
+
 
 
 Vue.use(VueRouter);
@@ -25,8 +27,17 @@ const routes = [{
   },
   {
     path: '/webcode',
-    name: 'WebVode',
+    name: 'WebCode',
     component: WebCode
+  },
+  {
+    path: '/spotifystreamgraph',
+    name: "SpotifyStreamgraph",
+    component: SpotifyStreamgraph
+  },
+  {
+    path: '*',
+    redirect: '/'
   },
 ];
 

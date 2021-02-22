@@ -2,22 +2,20 @@
 <div>
   <div class="grid">
   <div class="sidebar">
-    <p>Hi! I'm <span class="bold">Zach.</span> I'm currently a student at <span class="bold">Brigham Young University</span> studying <span class="bold">bioinformatics,</span> although I used to study <span class="bold">graphic design.</span> I'm
-      also learning <span class="bold">web code.</span></p>
+    <p>Hi! I'm <span class="bold">Zach.</span> I'm currently a student at <span class="bold">Brigham Young University</span> studying <span class="bold">bioinformatics,</span> although I used to study <span class="bold">graphic design </span>so you might see some of my old portfolio pieces on this website.</p>
     <br>
-    <p>I've worked at:</p>
+    <p>Work experience:</p>
     <ul>
-      <li><span class="bold">BYU Continuing Education</span> from April, 2020 to September, 2020 doing <span class="bold">graphic design,</span></li>
-      <li><span class="bold">The Ballard Center</span> from January, 2020 to September, 2020 doing <span class="bold">graphic design,</span></li>
-      <li>and <span class="bold">The Wall</span> since September of 2019, also doing <span class="bold">graphic design.</span></li>
-      <li>I also interned at <span class="bold">BYU Publications & Graphics</span> during June of 2015.</li>
+      <li>I've worked at<span class="bold">BYU</span> as a <span class="bold">computer science TA</span> for the web design class since January 2021 and I love it!</li>
+      <li>I was at <span class="bold">BYU Continuing Education</span> from April 2020 to September 2020 doing <span class="bold">graphic design,</span></li>
+      <li><span class="bold">The Ballard Center</span> from January 2020 to September 2020 doing <span class="bold">graphic design,</span></li>
+      <li>and <span class="bold">The Wall</span> from September of 2019 to January of 2021, also doing <span class="bold">graphic design.</span></li>
+      <li>During June of 2015, I also interned at <span class="bold">BYU Publications &#38; Graphics.</span></li>
     </ul>
     <br>
-    <p>I am proficient in:</p>
-    <p><span class="bold">Adobe Illustrator, InDesign, Photoshop, Aftereffects, HTML, CSS, Javascript, vuejs, film photography, drawing/painting, & Russian.</span></p>
+    <p>I am proficient in <span class="bold">Javascript, Vue.js, HTML, CSS, Python, Node.js, MongoDB, Adobe Illustrator, InDesign, Photoshop, Aftereffects, film photography, drawing/painting, &#38; Russian. I also have some experience using SQL.</span></p>
     <br>
-    <p>I have interests in:</p>
-    <p><span class="bold">biology, design, the environment, art, programming, hiking, data visualization, music, photography, math, climbing, gardening, Russian literature, ice-skating, book-binding, & cheese-making.</span></p>
+    <p>I have interests in <span class="bold">coding, ecology, biology, design, art, hiking, data visualization, music, photography, math, climbing, gardening, Russian literature, ice-skating, book-binding, &#38; cheese-making.</span></p>
     <div class="spacer">
 
     </div>

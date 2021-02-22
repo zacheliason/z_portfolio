@@ -8,6 +8,9 @@
           <h1>{{current.name}}</h1>
         </div>
         <div class="buffer">
+          <p>(Click anywhere to close)</p>
+        </div>
+        <div class="buffer">
           <p>{{current.date}}</p>
         </div>
         <div class="buffer">

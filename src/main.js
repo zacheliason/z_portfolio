@@ -6,6 +6,14 @@ import dataset from './dataset.js'
 Vue.config.productionTip = false;
 
 let data = {
+  importPending: true,
+  importedJSON: [],
+  artistList: [],
+  csv: '',
+  topArtists: [],
+  topArtistsKeys: {},
+  weekMax: 0,
+  newWidth: 0,
   items: dataset,
   current: {
     id: '',

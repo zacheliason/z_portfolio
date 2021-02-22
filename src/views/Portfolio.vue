@@ -13,12 +13,6 @@
       </div>
     </ul>
     <div class="center centerv back" v-if="selectEmpty">
-      <div class="arrow_left">
-      </div>
-      <div class="arrow_up">
-      </div>
-      <div class="arrow_right">
-      </div>
     </div>
   </div>
   <imageViewer :items="items" />

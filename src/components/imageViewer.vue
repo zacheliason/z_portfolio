@@ -96,6 +96,8 @@ img {
   align-items: center;
   justify-content: center;
   column-gap: 1em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
   overflow: hidden;
   width: 70%;
   text-align: center;

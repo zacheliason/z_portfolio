@@ -1,8 +1,8 @@
 <template lang="html">
 <div class="sites">
   <ul>
-    <li class="link"><a target="_blank" href="http://windows.zacheliason.com/">Windows</a></li>
-    <li class="link"><a target="_blank" href="http://species.zacheliason.com/">Species API Search</a></li>
+    <li class="link"><router-link class="changed" to="/spotifystreamgraph">Spotify Streamgraph</router-link></li>
+
   </ul>
 </div>
 </template>
@@ -27,7 +27,6 @@ export default {
   color: rgb(0,255,255) !important;
 }
 .link a:hover {
-  font-size: 4em;
   color: rgb(255,0,255) !important;
 }
 .sites {
@@ -48,8 +47,7 @@ export default {
   font-weight: bolder;
   }
   ul {
-    text-align: left;
-    width: 50vw;
+    text-align: center;
   }
   @media screen and (max-width: 620px) {
     .sites {
