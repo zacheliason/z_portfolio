@@ -48,6 +48,7 @@ export default {
   }
   ul {
     text-align: center;
+    padding: 0;
   }
   @media screen and (max-width: 620px) {
     .sites {

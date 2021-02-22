@@ -823,7 +823,7 @@ img {
 }
 @media screen and (max-width: 620px) {
   .mobile {
-    z-index: 9999999999999999999999999999999999999999999 !important;
+    z-index: 99999 !important;
     height: 100vh;
     width: 100vw;
     background-color: black;
