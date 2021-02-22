@@ -3,13 +3,13 @@
   <div class="pure-menu pure-menu-horizontal">
     <ul class="pure-menu-list">
       <div class="center">
-        <li class="pure-menu-item" id="design1"><a @click="select('design')" href="#" class="pure-menu-link">/01 <span class="bold">Design</span></a></li>
+        <li class="pure-menu-item" id="design1"><a @click="select('design')" href="#" class="pure-menu-link">/01_<span class="bold">Design</span></a></li>
       </div>
       <div class="centerv">
-        <li class="pure-menu-item" id="photos1"><a @click="select('photo')" href="#" class="pure-menu-link">/02 <span class="bold">Photos</span></a></li>
+        <li class="pure-menu-item" id="photos1"><a @click="select('photo')" href="#" class="pure-menu-link">/02_<span class="bold">Photos</span></a></li>
       </div>
       <div class="centerv">
-        <li class="pure-menu-item" id="art1"><a @click="select('art')" href="#" class="pure-menu-link">/03 <span class="bold">Art</span></a></li>
+        <li class="pure-menu-item" id="art1"><a @click="select('art')" href="#" class="pure-menu-link">/03_<span class="bold">Art</span></a></li>
       </div>
     </ul>
     <div class="center centerv back" v-if="selectEmpty">
@@ -99,7 +99,7 @@ function containsObject(obj, list) {
 #art1 a:hover,
 #design1 a:hover,
 #photos1 a:hover {
-  color: cyan !important;
+  color: #5A00FF /*blue*/ !important;
 }
 
 #art1,
@@ -134,7 +134,7 @@ function containsObject(obj, list) {
     transform: translateX(0);
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 740px) {
 
   .arrow_left,
   .arrow_right,
@@ -144,6 +144,20 @@ function containsObject(obj, list) {
   }
 
 
+  #art1,
+  #design1,
+  #photos1 {
+    font-size: 1em;
+    top: 3em
+  }
+
+  #photos1 {
+    top: 5em;
+  }
+
+  #art1 {
+    top: 7em;
+  }
 
 }
 </style>

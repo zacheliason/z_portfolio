@@ -32,7 +32,7 @@
 #zach {
   font-family: bc-novatica-cyr, sans-serif;
   font-weight: 800;
-      color: magenta !important;
+      color: #24CFFA /*teal*/ !important;
   text-decoration: none;
 
   position: fixed;
@@ -44,7 +44,7 @@
 #portfolio {
   font-family: bc-novatica-cyr, sans-serif;
   font-weight: 800;
-      color: magenta !important;
+      color: #24CFFA /*teal*/ !important;
   ;
   text-decoration: none;
 
@@ -57,7 +57,7 @@
 #about {
   font-family: bc-novatica-cyr, sans-serif;
   font-weight: 800;
-      color: magenta !important;
+      color: #24CFFA /*teal*/ !important;
   ;
   text-decoration: none;
 
@@ -77,7 +77,7 @@ footer a:hover {
 footer a {
   font-family: bc-novatica-cyr, sans-serif;
   font-weight: 800;
-      color: magenta !important;
+      color: #24CFFA /*teal*/ !important;
   ;
   text-decoration: none;
   position: fixed;
@@ -89,7 +89,7 @@ footer a {
 #coding {
   font-family:
   bc-novatica-cyr, sans-serif;
-  font-weight: 800;     color: magenta !important;
+  font-weight: 800;     color: #24CFFA /*teal*/ !important;
   ;
   text-decoration: none;
 
@@ -103,7 +103,7 @@ footer a {
 #coding:hover,
 #about:hover,
 #portfolio:hover {
-    font-size: 5em;
+  font-size: 5em;
   transition: .5s;
   letter-spacing: 2px;
 }
@@ -112,7 +112,6 @@ footer a {
 #coding,
 #about,
 #portfolio {
-  padding: -1em;
   z-index: 10000 !important;
   transition: .5s;
 
@@ -137,7 +136,7 @@ h1 {
 p {
   font-family: bc-novatica-cyr, sans-serif;
 
-  color: rgb(255,0,255);
+  color: #24CFFA /*teal*/;
   ;
 }
 
@@ -146,7 +145,7 @@ li {
   text-decoration: none;
   font-family: bc-novatica-cyr, sans-serif;
   font-weight: 800;
-  color: rgb(255,0,255);
+  color: #24CFFA /*teal*/;
   list-style-type: none;
 
 }
@@ -182,7 +181,20 @@ body {
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 740px) {
+  #zach,
+  #coding,
+  #about,
+  #portfolio {
+    font-size: 2em;
+  }
+  #zach:hover,
+  #coding:hover,
+  #about:hover,
+  #portfolio:hover {
+    font-size: 3em;
+    transition: .5s;
+  }
   .showOnMobile {
     display: inline-block;
     opacity: 1.0 !important;

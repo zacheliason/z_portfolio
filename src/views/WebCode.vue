@@ -27,7 +27,7 @@ export default {
   color: rgb(0,255,255) !important;
 }
 .link a:hover {
-  color: rgb(255,0,255) !important;
+  color: #24CFFA /*teal*/ !important;
 }
 .sites {
   display: flex;

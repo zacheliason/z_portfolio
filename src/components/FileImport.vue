@@ -699,7 +699,7 @@ label:hover{
 a:hover,.bold:hover {
   letter-spacing: .5px;
   transition: .3s;
-  color: magenta;
+  color: #24CFFA /*teal*/;
 }
 text {
   color: white;
@@ -759,8 +759,8 @@ text {
   width: 10px;
   height: 10px;
   border-radius: 5px;
-  background-color: cyan;
-  color: cyan;
+  background-color: #5A00FF /*blue*/;
+  color: #5A00FF /*blue*/;
 }
 
 .dot-windmill::after {
@@ -769,8 +769,8 @@ text {
   width: 10px;
   height: 10px;
   border-radius: 5px;
-  background-color: magenta;
-  color: magenta;
+  background-color: #24CFFA /*teal*/;
+  color: #24CFFA /*teal*/;
 }
 #my_dataviz {
   display: flex !important;

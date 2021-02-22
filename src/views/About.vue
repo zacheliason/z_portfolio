@@ -27,8 +27,8 @@
       </ul>
       <br>
       <h2>I am proficient in</h2>
-      <p><span class="emphasis">Javascript, Vue.js, <span class="place">HTML, CSS, </span> Python, Node.js, C++, Mongo<span class="place">DB</span>, Adobe Illustrator, InDesign, Photoshop, Aftereffects, film photography, drawing/painting, &#38;
-          Russian.</span> I also have some experience using<span class="emphasis"><span class="place"> SQL.</span></span></p>
+      <p><span class="emphasis">Javascript, Vue.js, <span class="place">HTML, CSS, </span> Python, Adobe Illustrator, InDesign, Photoshop, Aftereffects, film photography, drawing/painting, &#38;
+          Russian.</span> I also have experience using<span class="emphasis"><span class="place"> SQL,</span> Mongo<span class="place">DB</span>, Node.js, &#38; C++.</span></p>
       <br>
       <h2>I have interests in</h2>
       <p> <span class="emphasis">Coding, ecology, biology, design, art, hiking, data visualization, music, photography, math, climbing, gardening, Russian literature, ice-skating, book-binding, &#38; cheese-making.</span></p>
@@ -64,7 +64,7 @@ export default {
   width: 100%;
   padding: 30px;
   border-width: 0 2px 0 0 ;
-  border-color: magenta;
+  border-color: #24CFFA /*teal*/;
   border-style: solid;
 }
 .half {
@@ -73,27 +73,27 @@ export default {
   height: 40vh;
   width: 50%;
   border-width: 0 5px 0 0 ;
-  border-color: cyan;
+  border-color: #5A00FF /*blue*/;
   border-style: dotted;
 }
 h2 {
 width: 100%;
  font-family: bc-novatica-cyr, sans-serif;
-  color: cyan;
+  color: #5A00FF /*blue*/;
   font-size: 1em;
   margin: 0;
 
 }
 h3  {
   font-family: bc-novatica-cyr, sans-serif;
-  color: cyan;
+  color: #5A00FF /*blue*/;
   font-size: 1.5em;
   padding: 0;
   margin: 0;
 }
 .profile {
   transform: translateX(-100%);
-  animation: slideInFromLeft 2s ease .5s forwards;
+  animation: slideInFromLeft 1s ease .5s forwards;
   text-align: center;
   z-index: -1000;
   height: 100vh;
@@ -144,7 +144,7 @@ li {
   position: relative;
   float: right;
   text-align: left;
-  padding: 0 20px 50px 0;
+  padding: 0 20px 50px 20px;
   bottom: 0;
   top: 0;
   overflow-y: scroll;
