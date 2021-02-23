@@ -1,5 +1,6 @@
 <template lang="html">
   <div id="all">
+    <router-link id="exit" to="/coding"> &#x2715;</router-link>
     <div class="mobile">
       <p>This app does not work on mobile. Please try a computer!</p>
     </div>
@@ -814,6 +815,21 @@ text {
 img {
   border: 0 !important;
 }
+#exit:hover{
+  transform: rotate(180deg);
+  transition: 1s;
+}
+#exit {
+  transform: rotate(0);
+  transition: .3s;
+  position: fixed;
+  top: 30px;
+  right: 50px;
+  color: white;
+  z-index: 9999999999999999999999999999999 !important;
+  font-size: 2em;
+}
+
 @media screen and (max-width: 620px) {
   .mobile {
     z-index: 99999 !important;

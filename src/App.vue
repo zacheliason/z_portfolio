@@ -127,17 +127,19 @@ html {
   height: 100%;
   margin: 0;
 }
-
+li {
+  font-size: 2em;
+}
 h1 {
   font-family: bc-novatica-cyr, sans-serif;
   font-weight: 800;
 }
 
 p {
-  font-family: bc-novatica-cyr, sans-serif;
-
-  color: #24CFFA /*teal*/;
-  ;
+  font-family: mrs-eaves, serif;
+  color: black;
+  font-weight: normal;
+  font-size: 2em;
 }
 
 a,
@@ -180,7 +182,14 @@ body {
     opacity: 1;
   }
 }
-
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 @media screen and (max-width: 740px) {
   #zach,
   #coding,

@@ -28,10 +28,11 @@
       <br>
       <h2>I am proficient in</h2>
       <p><span class="emphasis">Javascript, Vue.js, <span class="place">HTML, CSS, </span> Python, Adobe Illustrator, InDesign, Photoshop, Aftereffects, film photography, drawing/painting, &#38;
-          Russian.</span> I also have experience using<span class="emphasis"><span class="place"> SQL,</span> Mongo<span class="place">DB</span>, Node.js, &#38; C++.</span></p>
+          Russian.</span> I also have experience using<span class="emphasis"><span class="place"> SQL,</span> Mongo<span class="place">DB</span>, Node.js,</span> &#38; <span class="emphasis">C++.</span></p>
       <br>
       <h2>I have interests in</h2>
-      <p> <span class="emphasis">Coding, ecology, biology, design, art, hiking, data visualization, music, photography, math, climbing, gardening, Russian literature, ice-skating, book-binding, &#38; cheese-making.</span></p>
+      <p> <span class="emphasis">Coding, ecology, biology, design, art, hiking, data visualization, music, photography, math, climbing, gardening, Russian literature, ice-skating, knitting, book-binding, </span> &#38; <span class="emphasis"> cheese-making.</span></p>
+      <p> <span class="smaller place">Website designed and <a href="https://github.com/zacheliason/z_portfolio">coded</a> by Zach Eliason &copy; 2021</span> </p>
       <div class="spacer">
 
       </div>
@@ -56,6 +57,20 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.smaller {
+  font-size: .7em;
+}
+.smaller a {
+  transition: .3s;
+  font-family: mrs-eaves-roman-all-small-ca, sans-serif !important;
+  color: #5A00FF /*blue*/;
+  font-weight: unset;
+}
+.smaller a:hover {
+  color: #24CFFA /*teal*/;
+  transition: .5s;
+  letter-spacing: 1px;
+}
 .righthalf {
   overflow-y: scroll;
   padding: 0 60px;
@@ -80,7 +95,7 @@ h2 {
 width: 100%;
  font-family: bc-novatica-cyr, sans-serif;
   color: #5A00FF /*blue*/;
-  font-size: 1em;
+  font-size: 2em;
   margin: 0;
 
 }
@@ -93,7 +108,7 @@ h3  {
 }
 .profile {
   transform: translateX(-100%);
-  animation: slideInFromLeft 1s ease .5s forwards;
+  animation: slideInFromLeft 1s ease 1s forwards;
   text-align: center;
   z-index: -1000;
   height: 100vh;
@@ -140,7 +155,7 @@ li {
 
 }
 .sidebar {
-  animation: 1s ease 0s 1 slideInFromTop;
+  animation: 1.7s ease 0s 1 slideInFromTop;
   position: relative;
   float: right;
   text-align: left;
@@ -152,7 +167,6 @@ li {
   width: 75vw;
   display: flex;
   flex-wrap: nowrap;
-  font-size: 2em;
   margin: 0;
   z-index: -1;
   mix-blend-mode: multiply;
@@ -175,14 +189,6 @@ img {
   }
   100% {
     transform: translateX(0);
-  }
-}
-@keyframes slideInFromTop {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
   }
 }
 
