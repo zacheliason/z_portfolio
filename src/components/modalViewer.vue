@@ -44,6 +44,7 @@ export default {
   },
   methods: {
     modalOff() {
+      document.getElementById("top").style.zIndex = "999";
       document.getElementById("nav").style.display = "block";
       document.getElementById("nav").style.animation = "fadeIn .5s ease forwards";
       this.$root.$data.showModal = false;
@@ -110,7 +111,6 @@ hr {
 }
 .small {
   font-size: 1.5em;
-  text-align: justify;
   width: 100%;
 }
 .{
@@ -132,7 +132,6 @@ letter-spacing: 1px;
   right: 30px;
   top: 20px;
   padding: 10px 15px 7px 15px;
-  background-color: white;
   border-radius: 100px;
   color: #5A00FF /*blue*/;
   font-size: 2em;

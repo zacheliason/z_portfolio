@@ -1,16 +1,10 @@
 <template>
 <div class="lookHere" id="subpage">
-  <div class="top">
-    <ul class="pure-menu-list">
-      <div class="center">
-        <li  id="design1"><a @click="select('design')" href="#" >/01_<span class="bold">Design</span></a></li>
-      </div>
-      <div class="centerv">
-        <li  id="photos1"><a @click="select('photo')" href="#" >/02_<span class="bold">Photos</span></a></li>
-      </div>
-      <div class="centerv">
-        <li  id="art1"><a @click="select('art')" href="#" >/03_<span class="bold">Art</span></a></li>
-      </div>
+  <div id="top">
+    <ul>
+      <li id="design1"><a @click="select('design')" href="#">/01_<span class="bold">Design</span></a></li>
+      <li id="photos1"><a @click="select('photo')" href="#">/02_<span class="bold">Photos</span></a></li>
+      <li id="art1"><a @click="select('art')" href="#">/03_<span class="bold">Art</span></a></li>
     </ul>
   </div>
   <imageViewer :items="items" />
@@ -34,7 +28,7 @@ export default {
   },
   computed: {
     items() {
-      return this.$root.$data.items.filter(item => containsObject(this.$root.$data.selectCategory, item.category)).sort(function(a,b){
+      return this.$root.$data.items.filter(item => containsObject(this.$root.$data.selectCategory, item.category)).sort(function(a, b) {
         return new Date(b.date) - new Date(a.date);
       });
     },
@@ -57,17 +51,16 @@ function containsObject(obj, list) {
 </script>
 
 <style media="screen">
-.back {
-  z-index: -100;
-}
-
 .lookHere {
   height: 100%;
 }
-.top {
+
+#top {
   position: fixed;
+  z-index: 999;
   mix-blend-mode: multiply;
 }
+
 .center {
   display: flex;
   justify-content: center;
@@ -95,19 +88,16 @@ function containsObject(obj, list) {
 #art1 a:hover,
 #design1 a:hover,
 #photos1 a:hover {
-  color: #5A00FF /*blue*/ !important;
-}
-#art1 a,
-#design1 a,
-#photos1 a {
-z-index: 999999 !important;
+  color: #5A00FF
+    /*blue*/
+     !important;
 }
 
 #art1,
 #design1,
 #photos1 {
   mix-blend-mode: multiply;
-  z-index: 999999 !important;
+  z-index: 9999 !important;
   animation: 1s ease .3s 1 slideInFromRight forwards;
   transform: translateX(200%);
   position: fixed;
@@ -133,10 +123,12 @@ z-index: 999999 !important;
   0% {
     transform: translateX(200%);
   }
+
   100% {
     transform: translateX(0);
   }
 }
+
 @media screen and (max-width: 740px) {
 
   .arrow_left,

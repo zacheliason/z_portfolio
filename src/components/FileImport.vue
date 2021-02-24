@@ -5,6 +5,8 @@
       <p>This app does not work on mobile. Please try a computer!</p>
     </div>
     <div class="demoPage" v-if="demoPage">
+      <h1>Spotify Streamgraph</h1>
+      <h2>This is a tool I made to chart the listening of a user's top 20 artists on Spotify over the course specified by the files imported. It is not finished and there are still many changes I'd like to make! (a legend toolbar, ability to resize graph, download as PDF)</h2>
       <h1>Streamgraph examples</h1>
       <p class="fixme">
         [scroll down]
@@ -14,7 +16,7 @@
       <img src="/images/Screen Shot 2021-02-21 at 15.56.46.png" alt="">
       <button type="button" @click="changeDemo" name="button">Continue</button>
     </div>
-    <div class="frontpage" v-if="frontPage">
+    <div class="frontpage" v-if="frontPage && !demoPage">
       <p>First, request your data from Spotify at the bottom of your account's <a target="_blank" href="https://www.spotify.com/us/account/privacy/">Privacy Settings</a> page.
          (it may take up to 30 days to gather your streaming history) You will receive an email once it is ready to download. Then, <span class="bold" v-on:click="changePage">click here.</span> </p>
     </div>
@@ -608,11 +610,10 @@ button:hover {
 }
 
 .frontpage {
-  overflow: scroll;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-color: black;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   display: flex;
@@ -832,7 +833,15 @@ img {
   z-index: 99999999 !important;
   font-size: 2em;
 }
-
+h2  {
+  padding: 0 20%;
+  color: white;
+}
+@media screen and (max-width: 900px) {
+  .frontpage,.backpage {
+    height: 130vh;
+  }
+}
 @media screen and (max-width: 620px) {
   .mobile {
     z-index: 99999 !important;

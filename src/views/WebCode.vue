@@ -51,8 +51,8 @@ export default {
 }
 .sites {
   display: flex;
-  width: 50vw;
-  height: 100vh;
+  width: 50%;
+  height: 100%;
   margin: 0;
   top: 0;
   bottom: 0;
@@ -68,6 +68,11 @@ export default {
     width: 100%;
   padding: 0;
   }
+  @media screen and (max-width: 900px) {
+.sites {
+  height: 115%;
+}
+}
   @media screen and (max-width: 620px) {
     .half {
       top:-60vh;

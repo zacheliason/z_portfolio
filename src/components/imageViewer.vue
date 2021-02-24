@@ -49,6 +49,7 @@ export default {
       setTimeout(() => document.getElementById(id).style.animation = "animation: hrFramesOut .3s forwards",500);
     },
     modalSwitchOn(item) {
+      document.getElementById("top").style.zIndex = "-100";
       document.getElementById("nav").style.animation = "fadeOut .5s ease forwards";
       setTimeout(() => document.getElementById("nav").style.display="none",500);
       this.$root.$data.current.id = item.id;
@@ -75,6 +76,8 @@ export default {
 }
 .itemHolder {
   transition: .3s;
+  animation: fadeIn .3s ease forwards;
+
 }
 .itemsHov:hover > *:not(:hover) {
   opacity: .7;
@@ -114,6 +117,7 @@ hr {
   width: 0;
   margin: 0 50% 0 0;
   text-align: left;
+  border-style: solid;
 }
 .caption {
   font-size: 1.3em;
