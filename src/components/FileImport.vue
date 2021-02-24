@@ -699,7 +699,6 @@ label:hover{
   transition: .3s;
 }
 a:hover,.bold:hover {
-  letter-spacing: .5px;
   transition: .3s;
   color: #24CFFA /*teal*/;
 }
