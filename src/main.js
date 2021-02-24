@@ -28,6 +28,7 @@ let data = {
   selectCategory: '',
   timerOn: false,
   wideScreen: window.innerWidth < 800 ? false : true,
+  windowWidth: window.innerWidth,
 }
 
 new Vue({

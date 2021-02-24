@@ -5,22 +5,25 @@
       <p>This app does not work on mobile. Please try a computer!</p>
     </div>
     <div class="demoPage" v-if="demoPage">
-      <h1>Spotify Streamgraph</h1>
-      <h2>This is a tool I made to chart the listening of a user's top 20 artists on Spotify over the course specified by the files imported. It is not finished and there are still many changes I'd like to make! (a legend toolbar, ability to resize graph, download as PDF)</h2>
-      <h1>Streamgraph examples</h1>
-      <p class="fixme">
-        [scroll down]
-      </p>
-      <img src="/images/Screen Shot 2021-02-21 at 15.56.03.jpg" alt="">
-      <img src="/images/Screen Shot 2021-02-21 at 15.56.39.jpg" alt="">
-      <img src="/images/Screen Shot 2021-02-21 at 15.56.46.png" alt="">
-      <button type="button" @click="changeDemo" name="button">Continue</button>
+      <div class="">
+        <h1>Spotify Streamgraph</h1>
+        <h2>This is a tool I made to chart the listening of a user's top 20 artists on Spotify over the course specified by the files imported. It is not finished and there are still many changes I'd like to make! (a legend toolbar, ability to resize graph, download as PDF)</h2>
+        <h1>Streamgraph examples</h1>
+        <p class="fixme">
+          [scroll down]
+        </p>
+        <img src="/images/Screen Shot 2021-02-21 at 15.56.03.jpg" alt="">
+        <img src="/images/Screen Shot 2021-02-21 at 15.56.39.jpg" alt="">
+        <img src="/images/Screen Shot 2021-02-21 at 15.56.46.png" alt="">
+        <button type="button" @click="changeDemo" name="button">Continue</button>
+
+      </div>
     </div>
     <div class="frontpage" v-if="frontPage && !demoPage">
       <p>First, request your data from Spotify at the bottom of your account's <a target="_blank" href="https://www.spotify.com/us/account/privacy/">Privacy Settings</a> page.
          (it may take up to 30 days to gather your streaming history) You will receive an email once it is ready to download. Then, <span class="bold" v-on:click="changePage">click here.</span> </p>
     </div>
-    <div class="backpage" v-else>
+    <div class="backpage" v-if="!frontPage && !demoPage">
 
       <div class="importStuff" v-if="importPending">
         <div class="left">
@@ -108,7 +111,6 @@ export default {
       newEl.id = "my_dataviz";
       newEl.style.marginTop = "100px";
       document.getElementById("vizpage").appendChild(newEl);
-      debugger
 
     },
     changeDemo() {
@@ -342,13 +344,15 @@ export default {
       let csvToUse = this.$root.$data.csv;
       let topartistskeys = this.$root.$data.topArtistsKeys
       // set the dimensions and margins of the graph
-
+      if (window.innerWidth) console.log(window.innerWidth);
+      else console.log(920);
       var margin = {
           top: 20,
           right: 30,
           bottom: 30,
           left: 30
         },
+
         width = 920 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
       this.$root.$data.newWidth = width;
@@ -562,10 +566,16 @@ export default {
 * {
   font-family: 'Space Mono', monospace;
 }
+h2 {
+  font-weight: normal !important;
+}
+.spotify {
+}
 #all {
     opacity: 1;
     transition-duration: 0.7s;
     transition-property: opacity;
+    overflow: scroll;
   }
 
 #all .fade {
@@ -611,9 +621,9 @@ button:hover {
 
 .frontpage {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-color: black;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   display: flex;
@@ -622,10 +632,11 @@ button:hover {
 }
 .backpage {
   flex-wrap: nowrap;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: black !important;
+  z-index: 999 !important;
+  position: absolute;
   top: 0;
   left: 0;
   display: flex;
@@ -715,6 +726,7 @@ text {
 .demoPage {
   background-color: black;
   text-align: center;
+  height: auto;
   width: 100vw;
   z-index: 100;
   position: absolute;
