@@ -27,8 +27,8 @@
       </ul>
       <br>
       <h2>I am proficient in</h2>
-      <p><span class="emphasis">Javascript, Vue.js, <span class="place">HTML, CSS, </span> Python, Adobe Illustrator, InDesign, Photoshop, Aftereffects, film photography, drawing/painting, &#38;
-          Russian.</span> I also have experience using<span class="emphasis"><span class="place"> SQL,</span> Mongo<span class="place">DB</span>, Node.js,</span> &#38; <span class="emphasis">C++.</span></p>
+      <p><span class="emphasis">Javascript, Vue.js, <span class="place">HTML, CSS, </span> Python, Adobe Illustrator, InDesign, Photoshop, Aftereffects, film photography, drawing/painting, </span> &#38;<span class="emphasis">
+          Russian, </span>in no particular order. I also have experience using<span class="emphasis"><span class="place"> SQL,</span> Mongo<span class="place">DB</span>, Node.js,</span> &#38; <span class="emphasis">C++.</span></p>
       <br>
       <h2>I have interests in</h2>
       <p> <span class="emphasis">Coding, ecology, biology, design, art, hiking, data visualization, music, photography, math, climbing, gardening, Russian literature, ice-skating, knitting, book-binding, </span> &#38; <span class="emphasis"> cheese-making.</span></p>
@@ -59,10 +59,11 @@ export default {
 <style lang="css" scoped>
 .smaller {
   font-size: .7em;
+  line-height: .5em !important;
 }
 .smaller a {
   transition: .3s;
-  font-family: mrs-eaves-roman-all-small-ca, sans-serif !important;
+  font-family: mrs-eaves-roman-all-small-ca, mrs-eaves, sans-serif !important;
   color: #5A00FF /*blue*/;
   font-weight: unset;
 }
@@ -122,8 +123,8 @@ h3  {
 .profile p {
   font-family: mrs-eaves, serif;
   font-style: italic;
-  font-size: 1.3em;
   padding: 0;
+  font-size: 1.2em;
   margin: 0 !important;
   color: black !important;
 }
@@ -136,7 +137,7 @@ width: 100%;
 }
 .place {
 
-font-family: mrs-eaves-roman-all-small-ca, sans-serif;
+font-family: mrs-eaves-roman-all-small-ca, mrs-eaves, serif;
 }
 
 ul {
@@ -181,6 +182,7 @@ li {
 img {
   width: 15vw;
   margin:  0 0 20px 0;
+  mix-blend-mode: multiply;
 }
 
 @keyframes slideInFromLeft {
@@ -196,6 +198,10 @@ img {
 @media screen and (max-width: 620px) {
   .sidebar {
     width: 100vw;
+  }
+  .righthalf {
+    width: 100%;
+    padding: 0 5%;
   }
   .profile {
     display: none;

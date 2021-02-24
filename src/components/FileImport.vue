@@ -1,6 +1,6 @@
 <template lang="html">
   <div id="all">
-    <router-link id="exit" to="/coding"> &#x2715;</router-link>
+    <router-link @click="revert" id="exit" to="/coding"> &#x2715;</router-link>
     <div class="mobile">
       <p>This app does not work on mobile. Please try a computer!</p>
     </div>
@@ -573,7 +573,7 @@ export default {
   position: absolute;
   left: 0;
   width: 50vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -584,7 +584,7 @@ export default {
 }
 .right {
   display: flex;
-  height: 100vh;
+  height: 100%;
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -608,8 +608,9 @@ button:hover {
 }
 
 .frontpage {
-  height: 100vh;
-  width: 100vw;
+  overflow: scroll;
+  height: 100%;
+  width: 100%;
   background-color: black;
   position: fixed;
   top: 0;
@@ -620,8 +621,8 @@ button:hover {
 }
 .backpage {
   flex-wrap: nowrap;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: black;
   position: fixed;
   top: 0;
@@ -777,7 +778,7 @@ text {
   display: flex !important;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   left: 100px;
   right: 0;
@@ -793,12 +794,15 @@ text {
 }
 .fixme {
   position: fixed;
-  bottom: 100px;
+  bottom: 50px;
   right: 50px;
   color: white;
+  font-size: 1em;
 }
 .mobile {
   display: none;
+  font-size: .5em;
+  padding: 30px;
 }
 .mobile p {
   color: white;
@@ -808,7 +812,7 @@ text {
   position: fixed;
   left: 50px;
   bottom: 50px;
-  z-index: 9999999999999999999999999999999 !important;
+  z-index: 9999999 !important;
   font-size: 1.5em;
 }
 
@@ -816,8 +820,8 @@ img {
   border: 0 !important;
 }
 #exit:hover{
-  transform: rotate(180deg);
-  transition: 1s;
+  transform: scale(2);
+  transition: .4s;
 }
 #exit {
   transform: rotate(0);
@@ -826,7 +830,7 @@ img {
   top: 30px;
   right: 50px;
   color: white;
-  z-index: 9999999999999999999999999999999 !important;
+  z-index: 99999999 !important;
   font-size: 2em;
 }
 

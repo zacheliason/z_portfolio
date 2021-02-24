@@ -26,7 +26,8 @@ let data = {
   },
   showModal: false,
   selectCategory: '',
-  timerOn: false
+  timerOn: false,
+  wideScreen: window.innerWidth < 800 ? false : true,
 }
 
 new Vue({
@@ -36,20 +37,18 @@ new Vue({
     setTimer() {
       document.getElementById("subpage").style.animation = "fadeIn .3s ease forwards";
       this.$root.$data.timerOn = true;
-      console.log("timer on");
-      setTimeout(() => this.$root.$data.timerOn = false, 1000);
-      setTimeout(() => console.log("timer off"), 1000)
+      setTimeout(() => this.$root.$data.timerOn = false, 700);
     },
     fadeSubPage() {
-      if (this.$root.$data.timerOn == false) {
-        console.log("blip");
+      if ((this.$root.$data.timerOn == false)) {
         document.getElementById("subpage").style.animation = "fadeOut .5s ease forwards";
       }
     },
     fadeInSubPage() {
+      if ((!this.$root.$data.isMobile)) {
         document.getElementById("subpage").style.animation = "fadeIn .3s ease forwards";
-
-    }
+      }
+    },
   },
   render: h => h(App)
 }).$mount("#app");

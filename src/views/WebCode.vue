@@ -4,7 +4,7 @@
     <div class="half">
 
     </div>
-  <p>While I've worked on many coding projects, many of them are difficult to display in a way that I am happy with. As such, the best examples of my programming portfolio remain this website and this slowly growing list of projects:</p>
+  <p>While I've worked on many coding projects, most of them are difficult to display in a way that I am happy with. As such, the best examples of my programming portfolio remain this website and this slowly growing list of projects:</p>
   <ul>
     <li class="link"><router-link class="changed" to="/spotifystreamgraph">Spotify Streamgraph</router-link></li>
   </ul>
@@ -69,10 +69,17 @@ export default {
   padding: 0;
   }
   @media screen and (max-width: 620px) {
+    .half {
+      top:-60vh;
+      display: relative;
+    }
     .sites {
+      height: 150%;
       width: 100vw;
-      justify-content: unset;
       font-size: 1em;
+      padding: 50px 6%;
+      top: unset;
+      bottom: unset
     }
   }
 </style>

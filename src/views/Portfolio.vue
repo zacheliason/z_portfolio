@@ -1,19 +1,17 @@
 <template>
 <div class="lookHere" id="subpage">
-  <div class="pure-menu pure-menu-horizontal">
+  <div class="top">
     <ul class="pure-menu-list">
       <div class="center">
-        <li class="pure-menu-item" id="design1"><a @click="select('design')" href="#" class="pure-menu-link">/01_<span class="bold">Design</span></a></li>
+        <li  id="design1"><a @click="select('design')" href="#" >/01_<span class="bold">Design</span></a></li>
       </div>
       <div class="centerv">
-        <li class="pure-menu-item" id="photos1"><a @click="select('photo')" href="#" class="pure-menu-link">/02_<span class="bold">Photos</span></a></li>
+        <li  id="photos1"><a @click="select('photo')" href="#" >/02_<span class="bold">Photos</span></a></li>
       </div>
       <div class="centerv">
-        <li class="pure-menu-item" id="art1"><a @click="select('art')" href="#" class="pure-menu-link">/03_<span class="bold">Art</span></a></li>
+        <li  id="art1"><a @click="select('art')" href="#" >/03_<span class="bold">Art</span></a></li>
       </div>
     </ul>
-    <div class="center centerv back" v-if="selectEmpty">
-    </div>
   </div>
   <imageViewer :items="items" />
 </div>
@@ -36,7 +34,9 @@ export default {
   },
   computed: {
     items() {
-      return this.$root.$data.items.filter(item => containsObject(this.$root.$data.selectCategory, item.category));
+      return this.$root.$data.items.filter(item => containsObject(this.$root.$data.selectCategory, item.category)).sort(function(a,b){
+        return new Date(b.date) - new Date(a.date);
+      });
     },
     selectEmpty() {
       if (this.$root.$data.selectCategory === '') return true;
@@ -64,7 +64,10 @@ function containsObject(obj, list) {
 .lookHere {
   height: 100%;
 }
-
+.top {
+  position: fixed;
+  mix-blend-mode: multiply;
+}
 .center {
   display: flex;
   justify-content: center;
@@ -89,22 +92,22 @@ function containsObject(obj, list) {
   mix-blend-mode: multiply;
 }
 
-#art1,
-#design1,
-#photos1 {
-  position: fixed;
-  mix-blend-mode: multiply;
-}
-
 #art1 a:hover,
 #design1 a:hover,
 #photos1 a:hover {
   color: #5A00FF /*blue*/ !important;
 }
+#art1 a,
+#design1 a,
+#photos1 a {
+z-index: 999999 !important;
+}
 
 #art1,
 #design1,
 #photos1 {
+  mix-blend-mode: multiply;
+  z-index: 999999 !important;
   animation: 1s ease .3s 1 slideInFromRight forwards;
   transform: translateX(200%);
   position: fixed;
