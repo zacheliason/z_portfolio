@@ -27,8 +27,8 @@
       </ul>
       <br>
       <h2>I am proficient in</h2>
-      <p><span class="emphasis">Javascript, Vue.js, <span class="place">HTML, CSS, </span> Python, Adobe Illustrator, InDesign, Photoshop, Aftereffects, film photography, drawing/painting, </span> &#38;<span class="emphasis">
-          Russian, </span>in no particular order. I also have experience using<span class="emphasis"><span class="place"> SQL,</span> Mongo<span class="place">DB</span>, Node.js,</span> &#38; <span class="emphasis">C++.</span></p>
+      <p><span class="emphasis">Javascript, Vue.js, <span class="place">HTML, CSS, </span> Python, Git Version Control, Adobe Illustrator, InDesign, Photoshop, Aftereffects, film photography, drawing/painting, </span> &#38;<span class="emphasis">
+          Russian, </span>in no particular order. I also have experience using<span class="emphasis"><span class="place"> SQL</span>ite, Mongo<span class="place">DB</span>, Node.js,</span> &#38; <span class="emphasis">C++.</span></p>
       <br>
       <h2>I have interests in</h2>
       <p> <span class="emphasis">Coding, ecology, biology, design, art, hiking, data visualization, music, photography, math, climbing, gardening, Russian literature, ice-skating, knitting, book-binding, </span> &#38; <span class="emphasis"> cheese-making.</span></p>

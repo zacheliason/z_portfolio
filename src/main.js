@@ -27,7 +27,7 @@ let data = {
   showModal: false,
   selectCategory: '',
   timerOn: false,
-  wideScreen: window.innerWidth < 800 ? false : true,
+  wideScreen: (window.innerWidth > 800) ? true : false,
   windowWidth: window.innerWidth,
 }
 

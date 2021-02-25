@@ -144,11 +144,11 @@ letter-spacing: 1px;
     padding-right: 10px;
     margin: 0 0 10px 0;
 
-  }
+  }/*
   .tagsbox:hover > *:not(:hover) {
     opacity: .7;
     transition: .4s;
-  }
+  }*/
   .tagsbox {
     transition: .3s;
   }
@@ -178,7 +178,7 @@ letter-spacing: 1px;
     animation: fadeIn .5s ease forwards;
 
     height: auto;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     position: fixed;
     z-index: 99999999999999999;
@@ -258,11 +258,11 @@ letter-spacing: 1px;
     }
     #portrait,#landscape {
       padding: 20px 20px 0 20px;
-      width: 100vw !important;
+      width: 100% !important;
       height: unset;
+      background-color: white;
     }
     .modal,.main,.sidebar {
-      overflow: scroll;
     }
     #exit {
       right: 25px;

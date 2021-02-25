@@ -1,9 +1,11 @@
 <template>
-<div class="wrapper" >
-  <div class="items" v-bind:class="{ itemsHov: this.$root.$data.wideScreen }" id="items" ref="items">
-    <div class="itemHolder" @hover="addBars(item.id)" v-for="item in items" :key="item.id">
+<div class="wrapper">
+  <modalViewer :current="current" />
 
-    <!--  <lazy-background class="item" @click="modalSwitchOn(item)" :image-source="'/images/' + item.image[0] " loading-image="/images/Iceberg.jpg" error-image="/images/Iceberg.jpg" image-class="cam-viewport" background-size="cover"
+  <div class="items" v-bind:class="{ itemsHov: this.$root.$data.wideScreen }" id="items" ref="items">
+    <div class="itemHolder" @mouseover="addBars(item.id)" @mouseout="fadeBars(item.id)" v-for="item in items" :key="item.id">
+
+      <!--  <lazy-background class="item" @click="modalSwitchOn(item)" :image-source="'/images/' + item.image[0] " loading-image="/images/Iceberg.jpg" error-image="/images/Iceberg.jpg" image-class="cam-viewport" background-size="cover"
         :image-success-callback="successCallback" :image-error-callback="errorCallback">
       </lazy-background>-->
       <div class="item" @click="modalSwitchOn(item)" v-bind:style="'background: url(/images/' + item.image[0] + ') no-repeat center top;'">
@@ -13,8 +15,10 @@
       <hr :id="item.id">
       <p class="date">{{item.date}}</p>
 
-      <modalViewer :current="current" />
     </div>
+
+  </div>
+  <div class="spacer">
 
   </div>
 </div>
@@ -46,12 +50,24 @@ export default {
   },
   methods: {
     addBars(id) {
-      setTimeout(() => document.getElementById(id).style.animation = "animation: hrFramesOut .3s forwards",500);
+      if (this.$root.$data.wideScreen) {
+        document.getElementById(id).style.opacity = "1";
+        setTimeout(() => document.getElementById(id).style.transition = "1s", 10);
+        setTimeout(() => document.getElementById(id).style.width = "50%", 10);
+      }
+    },
+    fadeBars(id) {
+      if (this.$root.$data.wideScreen) {
+        document.getElementById(id).style.transition = ".3s";
+        document.getElementById(id).style.width = "0";
+        setTimeout(() => document.getElementById(id).style.transition = "all 0s", 250);
+        setTimeout(() => document.getElementById(id).style.opacity = "0", 250);
+      }
     },
     modalSwitchOn(item) {
       document.getElementById("top").style.zIndex = "-100";
       document.getElementById("nav").style.animation = "fadeOut .5s ease forwards";
-      setTimeout(() => document.getElementById("nav").style.display="none",500);
+      setTimeout(() => document.getElementById("nav").style.display = "none", 500);
       this.$root.$data.current.id = item.id;
       this.$root.$data.current.name = item.name;
       this.$root.$data.current.description = item.description;
@@ -65,55 +81,38 @@ export default {
 </script>
 
 <style lang="css" scoped>
-
+.spacer {
+  height: 70px;
+  width: 100vw;
+  background-color: white;
+  z-index: -999;
+}
 .art,.design,.photos,.all {
   padding: .5em 1em;
   display: inline-block;
   background-color: white;
 }
-.itemHolder:hover hr{
-  animation: hrFrames 1s forwards;
+.hr:hover {
+  animation: hrFrames .3s ease forwards;
 }
-.itemHolder {
-  transition: .3s;
-  animation: fadeIn .3s ease forwards;
 
+.itemHolder {
+  transition: 1s;
+  animation: fadeIn .3s ease forwards;
+  margin: 0 .5em;
+}
+.itemsHov {
+  transition: 1s !important;
 }
 .itemsHov:hover > *:not(:hover) {
-  opacity: .7;
-  transition: .3s;
-}
-@keyframes hrFrames {
-  0% {
-    opacity: 0;
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    width: 50%;
-    opacity: 1;
-  }
-}
-@keyframes hrFramesOut {
-  0% {
-    width: 50%;
-    opacity: 1;
-  }
-  99% {
-    opacity: 1;
-  }
-  100% {
-    width: 0;
-    opacity: 0;
-  }
+  opacity: .9 !important;
+  transition: 1s !important;
 }
 
 hr {
-  opacity: 0;
   color: #5A00FF /*blue*/;
-  transition: .3s;
+  opacity: 0;
+  transition: 0s;
   width: 0;
   margin: 0 50% 0 0;
   text-align: left;
@@ -163,12 +162,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 1em;
   -moz-column-gap: 1em;
   -webkit-column-gap: 1em;
   overflow: hidden;
   width: 72vw;
-  margin: 70px auto 50px auto;
+  margin: 70px auto 0 auto;
   height: auto;
   flex-wrap: wrap;
 }
