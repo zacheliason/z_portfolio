@@ -13,7 +13,7 @@ let dataset = [{
     category: ["art", "digital", "2019"],
     image: ["Jacob+Elise.jpg", ],
     date: new Intl.DateTimeFormat('en-US', options).format(new Date(2019, 12)),
-    description: "Personal project I made for my brother last Christmas by request of his gf."
+    description: "Personal project I made for my brother last Christmas."
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ let dataset = [{
     category: ["photo", "film", "b&w", "kiev88", "2020", ],
     image: ["Kiev079.jpg", "Kiev080.jpg", "Kiev081.jpg", "Kiev084.jpg", "Kiev085.jpg", "Kiev088.jpg", ],
     date: new Intl.DateTimeFormat('en-US', options).format(new Date(2020, 5)),
-    description: "The first roll I shot on my Kiev88. There were some pretty bad light leaks and an especially sticky focus ring but I was able to fix most of those problems after this test roll."
+    description: "The first roll I shot on my Kiev88. There were some pretty bad light leaks and a sticky focus ring but I still think they were fun."
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ let dataset = [{
     category: ["photo", "film", "b&w", "kiev88", "2020", ],
     image: ["Kiev3110.jpg", "Kiev3112.jpg", "Kiev3115.jpg", "Kiev3119.jpg", ],
     date: new Intl.DateTimeFormat('en-US', options).format(new Date(2020, 5)),
-    description: "I was able to seal the light leaks in the camera back that I used for this roll so we saw less of those thankfully in these pictures."
+    description: "I was able to seal the light leaks I'd seen in previous rolls so we thankfully saw fewer of those in these pictures."
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ let dataset = [{
     category: ["photo", "film", "color", "kiev88", "2020", ],
     image: ["Kiev3122.jpg", "Kiev3121.jpg", "Kiev3123.jpg", "Kiev3125.jpg", "Kiev3127.jpg", "Kiev3128.jpg", "Kiev3129.jpg", ],
     date: new Intl.DateTimeFormat('en-US', options).format(new Date(2020, 6)),
-    description: "I used a second camera back for this roll which was not sealed quite as well as I would've hoped. Luckily I didn't mind the leak effects but I will have to watch this one."
+    description: "Pictures from trips I took in summer of 2020."
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ let dataset = [{
     category: ["design", "digital", "illustration", "2020", ],
     image: ["Isolation1-01.jpg", ],
     date: new Intl.DateTimeFormat('en-US', options).format(new Date(2020, 6)),
-    description: "This was a little illustration done for a Ballard Center brief on the effects of isolation on mental health."
+    description: "This was an illustration I did for a Ballard Center brief on the effects of isolation on mental health."
   },
   {
     id: 8,
@@ -93,7 +93,7 @@ let dataset = [{
     category: ["design", "digital", "animated", "2020"],
     image: ["Final-Animation.gif", ],
     date: new Intl.DateTimeFormat('en-US', options).format(new Date(2020, 5)),
-    description: "Small animation made for the Ballard Center's social media. They wanted to depict certain coping mechanisms during quarantine. This one, I believe, was 'taking fashion shots of my sister's outfits every day.'"
+    description: "Small animation made for the Ballard Center's social media. They wanted to depict certain coping mechanisms during quarantine. This one was 'taking fashion shots of my sister's outfits every day.'"
   },
   {
     id: 14,
@@ -101,7 +101,7 @@ let dataset = [{
     category: ["design", "2020", ],
     image: ["CreativeExercises1.jpg", ],
     date: new Intl.DateTimeFormat('en-US', options).format(new Date(2020, 4)),
-    description: "This was the creative exercise for entrance into the BYU graphic design pre-program. We were given a sheet of abstract shapes (outlined in cyan dots)) and free reign for how we chose to use them in our design. I went with a theme of dancers."
+    description: "This was my creative exercise for entrance into the BYU graphic design pre-program. We were given a sheet of abstract shapes (outlined in cyan dots) and free reign for how we chose to use them in our design. I went with a theme of dancers."
   },
   {
     id: 15,
@@ -125,7 +125,7 @@ let dataset = [{
     category: ["design","digital","illustration","2020", ],
     image: ["Butterfly-01.jpg", ],
     date: new Intl.DateTimeFormat('en-US', options).format(new Date(2020, 5)),
-    description: "Small illustration I did for the Ballard Center's Social Media. This was to depict a quote about happiness, though I don't remember the specifics."
+    description: "Small illustration I did for the Ballard Center's Social Media. This was to depict a quote about happiness."
   },/*
   {
     id: 18,
@@ -141,7 +141,7 @@ let dataset = [{
     category: ["design", "2015"],
     image: ["1.jpg", ],
     date: new Intl.DateTimeFormat('en-US', options).format(new Date(2015, 6)),
-    description: "This is a page I worked on for the BYU 2015 Annual Law Report."
+    description: "This is a page I worked on for the BYU 2015 Annual Law Report while I was interning at BYU Publications & Graphics."
   },/*
   {
     id: 20,
@@ -205,7 +205,7 @@ let dataset = [{
     category: ["art", "printmaking", "2020"],
     image: ["linoParents.jpg" ],
     date: new Intl.DateTimeFormat('en-US', options).format(new Date(2020,12,25)),
-    description: "Linocut of my parents that I designed for a joint Christmas gift to our parents with my brother."
+    description: "Linocut of my parents that I designed for a joint Christmas gift with my brother."
   },
 ]
 

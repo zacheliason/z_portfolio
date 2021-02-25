@@ -38,7 +38,10 @@ export default {
     items: Array,
   },
   data() {
-    return {}
+    return {
+      timeout1: ()=>{},
+      timeout2: ()=>{}
+    }
   },
   computed: {
     current() {
@@ -51,17 +54,21 @@ export default {
   methods: {
     addBars(id) {
       if (this.$root.$data.wideScreen) {
+        clearTimeout(this.timeout1);
+      //  clearTimeout(this.timeout2);
         document.getElementById(id).style.opacity = "1";
-        setTimeout(() => document.getElementById(id).style.transition = "1s", 10);
-        setTimeout(() => document.getElementById(id).style.width = "50%", 10);
+        this.timeout1 = setTimeout(() => document.getElementById(id).style.transition = "1s", 10);
+        this.timeout2 = setTimeout(() => document.getElementById(id).style.width = "50%", 10);
       }
     },
     fadeBars(id) {
       if (this.$root.$data.wideScreen) {
+        clearTimeout(this.timeout1);
+        //clearTimeout(this.timeout2);
         document.getElementById(id).style.transition = ".3s";
         document.getElementById(id).style.width = "0";
-        setTimeout(() => document.getElementById(id).style.transition = "all 0s", 250);
-        setTimeout(() => document.getElementById(id).style.opacity = "0", 250);
+        this.timeout1 = setTimeout(() => document.getElementById(id).style.transition = "all 0s", 250);
+        this.timeout2 = setTimeout(() => document.getElementById(id).style.opacity = "0", 250);
       }
     },
     modalSwitchOn(item) {
@@ -172,11 +179,10 @@ img {
 }
 .item {
   transition: 1s;
-
   background-color: #FC440F;
   display: inline-block;
   margin: 20px 0 0 0;
-  width: calc((70vw - 2em) / 3);
+  width: calc((70vw - 4em) / 3);
   padding-top: 120%;
   height: 0;
   background: url(/images/iceberg.jpg);
