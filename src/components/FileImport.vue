@@ -821,7 +821,6 @@ text {
 }
 
 .revertButton {
-  width: auto;
   position: fixed;
   left: 50px;
   bottom: 50px;
