@@ -4,7 +4,7 @@
     <div class="rightborder">
       <img src="/images/ZachProfile3.png" alt="">
       <h3>Zach Eliason</h3>
-      <p>Bioinformatics student, <span class="place">BYU</span></p>
+      <p>Bioinformatics student, <span class="place">BYU (2023)</span></p>
     </div>
 
   </div>
@@ -17,18 +17,18 @@
       <h2>Hi! I'm Zach.</h2>
       <p> I'm currently a student at <span>Brigham Young University</span> studying bioinformatics, although I used to study graphic design so you might see some of my old portfolio pieces on this website!</p>
       <br>
-      <h2>I've worked at</h2>
+      <h2>Recent Work Experience</h2>
       <ul>
-        <li><span class="place">BYU</span> as a computer science <span class="place">TA</span> for the web design class since January 2021,</li>
-        <li><span class="place">BYU</span> Continuing Education from April <span class="place">2020</span> to September <span class="place">2020</span> doing graphic design,</li>
-        <li>The Ballard Center from January <span class="place">2020</span> to September <span class="place">2020</span> doing graphic design,</li>
-        <li>and The Wall from September of <span class="place">2019</span> to January of <span class="place">2021,</span> also doing graphic design.</li>
-        <li>During June of <span class="place">2015</span>, I also interned at <span class="place">BYU</span> Publications &#38; Graphics.</li>
+        <li>Computer Science <span class="place">TA</span>, <span class="place">BYU</span> CS260 Web Development Course<br><span class="date">JANUARY 2021—PRESENT</span></li>
+        <li>Ecoinformatics <span class="place">RA</span> &#38; Assistant Data Manager, <span class="place">BYU</span> Abbott Lab<br><span class="date">JANUARY 2021—PRESENT</span></li>
+        <li>Graphic Designer, The Wall<br><span class="date">SEPTEMBER 2019—JANUARY 2021</span></li>
+        <li>Graphic Designer, <span class="place">BYU</span> Continuing Education<br><span class="date">APRIL 2020—SEPTEMBER 2020</span></li>
+        <li>Graphic Designer, the Ballard Center<br><span class="date">JANUARY 2020—SEPTEMBER 2020</span></li>
       </ul>
       <br>
-      <h2>I am proficient in</h2>
-      <p><span class="emphasis">Javascript, Vue.js, <span class="place">HTML, CSS, </span> Python, Git Version Control, Adobe Illustrator, InDesign, Photoshop, Aftereffects, film photography, drawing/painting, </span> &#38;<span class="emphasis">
-          Russian, </span>in no particular order. I also have experience using<span class="emphasis"><span class="place"> SQL</span>ite, Mongo<span class="place">DB</span>, Node.js,</span> &#38; <span class="emphasis">C++.</span></p>
+      <h2>In no particular order,</h2>
+      <p>I am proficient in <span class="emphasis">Javascript, Vue.js, <span class="place">HTML, CSS, </span> Python, Git Version Control, Adobe Illustrator, InDesign, Photoshop, Aftereffects, film photography, drawing/painting, </span> &#38;<span class="emphasis">
+          Russian.</span> I also have experience using<span class="emphasis"><span class="place"> SQL</span>ite, Mongo<span class="place">DB</span>, Node.js,</span> &#38; <span class="emphasis">C++.</span></p>
       <br>
       <h2>I have interests in</h2>
       <p> <span class="emphasis">Coding, ecology, biology, design, art, hiking, data visualization, music, photography, math, climbing, gardening, Russian literature, ice-skating, knitting, book-binding, </span> &#38; <span class="emphasis"> cheese-making.</span></p>
@@ -57,6 +57,13 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.date {
+  font-family: mrs-eaves-roman-all-small-ca, mrs-eaves, sans-serif !important;
+  font-weight: bolder;
+  font-size: .75em;
+  letter-spacing: .5px;
+
+}
 .smaller {
   font-size: .7em;
   line-height: .5em !important;
@@ -70,7 +77,6 @@ export default {
 .smaller a:hover {
   color: #24CFFA /*teal*/;
   transition: .5s;
-  letter-spacing: 1px;
 }
 .righthalf {
   overflow-y: scroll;
@@ -146,6 +152,15 @@ ul {
   font-family: mrs-eaves,serif;
   color: black;
   font-style: unset;
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";
+  color: #5A00FF /*blue*/;
+  font-weight: bold;
+  display: inline-block;
+  width: .8em;
+  margin-left: -.8em;
 }
 li {
   padding: 20px 0 0 0;
@@ -163,7 +178,7 @@ li {
   padding: 0 20px 50px 20px;
   bottom: 0;
   top: 0;
-  overflow-y: scroll;
+  overflow: auto;
   right: 0;
   width: 75vw;
   display: flex;

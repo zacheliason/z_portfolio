@@ -199,9 +199,9 @@ img {
 
 @media screen and (max-width: 820px) {
   .itemHolder {
-    width: calc((100% - 3em) / 2);
+    width: calc((100% - 2em) / 2);
     padding-top: 0;
-    margin: 0 .5em 2em .5em;
+    margin: 0 0 2em 0;
   }
   .items {
     column-gap: 2em;

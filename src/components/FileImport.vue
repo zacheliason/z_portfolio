@@ -8,7 +8,7 @@
       <div class="">
         <h1>Spotify Streamgraph</h1>
         <h2>This is an app I made in my free time over last winter break. It creates a streamgraph of a user's streaming history showing how much they listened to their top 20 artists on Spotify over the period specified by the files imported. It is not finished and there are still many changes I would like to make! (i.e. a legend toolbar, ability to resize x-axis, download as PDF, various style improvements, more error handling) Nevertheless, here it is in its current state.</h2>
-        <h1>Streamgraph examples</h1>
+        <h1>Static streamgraph examples:</h1>
         <p class="fixme">
           [scroll down]
         </p>
@@ -826,7 +826,7 @@ text {
   bottom: 50px;
   z-index: 9999999 !important;
   font-size: 1.5em;
-  width: auto !important;
+  width: auto;
 }
 
 img {

@@ -1,7 +1,7 @@
-import Vue from 'vue';
-import App from './App.vue';
-import router from './router';
-import dataset from './dataset.js';
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
+import dataset from './dataset.js'
 
 Vue.config.productionTip = false;
 
@@ -27,32 +27,29 @@ let data = {
   showModal: false,
   selectCategory: '',
   timerOn: false,
-  wideScreen: window.innerWidth > 800 ? true : false,
+  wideScreen: (window.innerWidth > 800) ? true : false,
   windowWidth: window.innerWidth,
-};
+}
 
 new Vue({
   router,
   data,
   methods: {
     setTimer() {
-      document.getElementById('subpage').style.animation =
-        'fadeIn .3s ease forwards';
+      document.getElementById("subpage").style.animation = "fadeIn .3s ease forwards";
       this.$root.$data.timerOn = true;
-      setTimeout(() => (this.$root.$data.timerOn = false), 700);
+      setTimeout(() => this.$root.$data.timerOn = false, 700);
     },
     fadeSubPage() {
-      if (this.$root.$data.timerOn == false) {
-        document.getElementById('subpage').style.animation =
-          'fadeOut .5s ease forwards';
+      if ((this.$root.$data.timerOn == false)) {
+        document.getElementById("subpage").style.animation = "fadeOut .5s ease forwards";
       }
     },
     fadeInSubPage() {
-      if (!this.$root.$data.isMobile) {
-        document.getElementById('subpage').style.animation =
-          'fadeIn .3s ease forwards';
+      if ((!this.$root.$data.isMobile)) {
+        document.getElementById("subpage").style.animation = "fadeIn .3s ease forwards";
       }
     },
   },
-  render: h => h(App),
-}).$mount('#app');
+  render: h => h(App)
+}).$mount("#app");
