@@ -6,7 +6,7 @@
       <router-link to="/portfolio"><span :key="item.id" @click="goTo(item)" v-for="item in items">{{item.name}}<span class="dot">&#xb7;</span></span></router-link>
     </div>
   -->
-    <h1 class="disappear">Hello! This is where I host my design portfolio and coding repository. Feel free to take a look around!
+    <h1 class="disappear">Hello! This is where I host my design and coding portfolios. Feel free to take a look around!
     </h1>
   </div>
 
