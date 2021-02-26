@@ -7,7 +7,7 @@
     <div class="demoPage" v-if="demoPage">
       <div class="">
         <h1>Spotify Streamgraph</h1>
-        <h2>This is a tool I made to chart the listening of a user's top 20 artists on Spotify over the course specified by the files imported. It is not finished and there are still many changes I'd like to make! (a legend toolbar, ability to resize graph, download as PDF)</h2>
+        <h2>This is an app I made in my free time that creates a streamgraph of a user's streaming history showing how much they listened to their top 20 artists on Spotify over the course specified by the files imported. It is not finished and there are still many changes I would like to make! (i.e. a legend toolbar, ability to resize x-axis, download as PDF, various style improvements, more error handling) but here it is in its current state.</h2>
         <h1>Streamgraph examples</h1>
         <p class="fixme">
           [scroll down]
@@ -826,6 +826,7 @@ text {
   bottom: 50px;
   z-index: 9999999 !important;
   font-size: 1.5em;
+  width: auto !important;
 }
 
 img {

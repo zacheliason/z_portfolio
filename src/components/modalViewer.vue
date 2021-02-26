@@ -58,19 +58,21 @@ export default {
         (50 + 10 * Math.random()) + '%)'
     },
     orientation(image) {
-      var element = document.getElementById(image);
-      if (this.$root.$data.current.img.length == 1) {
-        element.classList.add("last");
-      }
-      let screenWidth = document.getElementById("main").offsetWidth;
-      let screenHeight = window.innerHeight;
-      var hght = element.height;
-      var wdth = element.width;
+      if (this.$root.$data.wideScreen) {
+        var element = document.getElementById(image);
+        if (this.$root.$data.current.img.length == 1) {
+          element.classList.add("last");
+        }
+        let screenWidth = document.getElementById("main").offsetWidth;
+        let screenHeight = window.innerHeight;
+        var hght = element.height;
+        var wdth = element.width;
 
-      if ((hght / wdth < .9) || (screenHeight > screenWidth)) {
-        element.id = "landscape";
-      } else {
-        element.id = "portrait";
+        if ((hght / wdth < .9) || (screenHeight > screenWidth)) {
+          element.id = "landscape";
+        } else {
+          element.id = "portrait";
+        }
       }
     },
   }
@@ -256,10 +258,10 @@ letter-spacing: 1px;
       z-index: 10000;
 
     }
-    #portrait,#landscape {
+    img {
       padding: 20px 20px 0 20px;
       width: 100% !important;
-      height: unset;
+      height: unset !important;
       background-color: white;
     }
     .modal,.main,.sidebar {

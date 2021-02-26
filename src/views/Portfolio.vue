@@ -98,7 +98,7 @@ function containsObject(obj, list) {
 #photos1 {
   mix-blend-mode: multiply;
   z-index: 9999 !important;
-  animation: 1s ease .3s 1 slideInFromRight forwards;
+  animation: 1s ease .1s 1 slideInFromRight forwards;
   transform: translateX(200%);
   position: fixed;
   text-align: right;
@@ -111,12 +111,12 @@ function containsObject(obj, list) {
 
 #photos1 {
   top: 5em;
-  animation-delay: .6s;
+  animation-delay: .4s;
 }
 
 #art1 {
   top: 7em;
-  animation-delay: .9s;
+  animation-delay: .7s;
 }
 
 @keyframes slideInFromRight {
