@@ -79,7 +79,7 @@ export default {
       display: relative;
     }
     .sites {
-      height: 150%;
+      height: 100%;
       width: 100vw;
       font-size: 1em;
       padding: 50px 6%;

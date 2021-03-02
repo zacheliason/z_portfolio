@@ -210,5 +210,11 @@ body {
   footer {
     bottom: .1em;
   }
+  h2 {
+    font-size: 2em;
+  }
+  p,li {
+    font-size: 1.5em;
+  }
 }
 </style>

@@ -217,6 +217,9 @@ img {
     opacity: 1;
     margin: 3px 0;
   }
+  .caption {
+    font-size: 1.3em;
+  }
   .itemHolder {
     width: 100%;
     padding-top: 0;

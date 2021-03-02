@@ -211,6 +211,10 @@ img {
 
 
 @media screen and (max-width: 620px) {
+  ul li::before {
+    width: .6em;
+    margin-left: -.6em;
+  }
   .sidebar {
     width: 100vw;
   }
