@@ -1,9 +1,9 @@
 {
   "outfit": {
-    "shirt": "",
-    "pants": "",
-    "shoes": "",
-    "watch": ""
+    "shirt": "black striped",
+    "pants": "green",
+    "shoes": "tevas",
+    "watch": "star"
   },
   "recentMedia": {
     "recentSong": {
@@ -20,22 +20,22 @@
       "imageURL": "https://a.ltrbxd.com/resized/sm/upload/qt/2y/ms/4w/5pQlc8dp5dXzWg1yM70DZrsDpOl-0-150-0-225-crop.jpg?k=0ca03d0bc8"
     }
   },
-  "_id": "605e1a40d80919a16e34ff15",
-  "date": "2021-03-26T17:30:40.538Z",
+  "_id": "605e1d05312e9ea31df602aa",
+  "date": "2021-03-26T17:42:29.665Z",
   "goals": [
     {
       "completed": false,
-      "_id": "605e1a41d80919a16e34ff16",
+      "_id": "605e1d06312e9ea31df602ab",
       "goal": "exercise"
     },
     {
       "completed": false,
-      "_id": "605e1a41d80919a16e34ff17",
+      "_id": "605e1d06312e9ea31df602ac",
       "goal": "scriptures"
     }
   ],
-  "food": "",
+  "food": "cereal",
   "memory": "",
   "__v": 2,
-  "id": "605e1a40d80919a16e34ff15"
+  "id": "605e1d05312e9ea31df602aa"
 }
