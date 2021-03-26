@@ -8,8 +8,6 @@
 </template>
 
 <script>
-//import * as fs from 'fs';
-import axios from "axios";
 export default {
   name: "Write",
   components: {
