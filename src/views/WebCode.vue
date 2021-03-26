@@ -6,16 +6,28 @@
     </div>
   <p>While I've worked on many coding projects, most of them are difficult to display in a way that I am happy with. As such, the best examples of my programming portfolio remain this website and this slowly growing list of projects:</p>
   <ul>
-    <li class="link"><router-link class="changed" to="/spotifystreamgraph">Spotify Streamgraph</router-link></li>
+    <li @mouseover="writeToFile" class="link"><router-link class="changed" to="/spotifystreamgraph">Spotify Streamgraph</router-link></li>
   </ul>
-  </div>
-
+</div>
 </div>
 </template>
 
 <script>
 export default {
   name: "Coding",
+  methods: {
+    observerClean (obj) {
+      return Object.keys(obj).reduce(
+        (res, e) => Object.assign(res, { [e]: obj[e] }),
+        {}
+      )
+    },
+    writeToFile() {
+      console.log("HEY");
+      const finalData = this.observerClean(this.$root.$data.dayJSON);
+      console.log(finalData);
+    }
+  },
   components: {
 
   },

@@ -1,0 +1,41 @@
+{
+  "outfit": {
+    "shirt": "black striped",
+    "pants": "green",
+    "shoes": "tevas",
+    "watch": "star"
+  },
+  "recentMedia": {
+    "recentSong": {
+      "title": "Moritat vom Mackie Messer from Die Dreigroschenoper",
+      "artist": "Lotte Lenya",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273dde4257a7c4656923bc320e8"
+    },
+    "recentMovie": {
+      "title": "8½",
+      "rating": 3,
+      "year": "1963",
+      "review": "",
+      "watched_date": "2021-03-19T00:00:00.000Z",
+      "imageURL": "https://a.ltrbxd.com/resized/sm/upload/qt/2y/ms/4w/5pQlc8dp5dXzWg1yM70DZrsDpOl-0-150-0-225-crop.jpg?k=0ca03d0bc8"
+    }
+  },
+  "_id": "605e1e09103f19a3dd25b797",
+  "date": "2021-03-26T17:46:49.887Z",
+  "goals": [
+    {
+      "completed": false,
+      "_id": "605e1e0a103f19a3dd25b798",
+      "goal": "exercise"
+    },
+    {
+      "completed": false,
+      "_id": "605e1e0a103f19a3dd25b799",
+      "goal": "scriptures"
+    }
+  ],
+  "food": "cereal",
+  "memory": "",
+  "__v": 2,
+  "id": "605e1e09103f19a3dd25b797"
+}

@@ -5,6 +5,7 @@ import Portfolio from '../views/Portfolio.vue';
 import About from '../views/About.vue';
 import Coding from '../views/WebCode.vue';
 import SpotifyStreamgraph from '../views/SpotifyStreamgraph.vue';
+import Write from '../views/Write.vue';
 
 
 
@@ -19,6 +20,11 @@ const routes = [{
     path: '/about',
     name: 'About',
     component: About
+  },
+  {
+    path: '/write',
+    name: 'Write',
+    component: Write
   },
   {
     path: '/portfolio',
