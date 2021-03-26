@@ -2,10 +2,12 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import dataset from './dataset.js'
+import dayJSON from '../currentday.json'
 
 Vue.config.productionTip = false;
-
+delete dayJSON.__ob__
 let data = {
+  dayJSON: dayJSON,
   importPending: true,
   importedJSON: [],
   artistList: [],
