@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "blue striped",
-    "pants": "patched jeans",
-    "shoes": "keans",
+    "shirt": "blue",
+    "pants": "green shorts",
+    "shoes": "slides",
     "watch": "green"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "Kyoto",
-      "artist": "Phoebe Bridgers",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2733040ca980277cf1445934add"
+      "title": "Tjugonde",
+      "artist": "Amason",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273583e75002acf75e3ed88d784"
     },
     "recentMovie": {
       "title": "Jiro Dreams of Sushi",
@@ -20,22 +20,22 @@
       "imageURL": "https://a.ltrbxd.com/resized/sm/upload/bm/y4/2x/mo/b4kKfthVn6V7U2GwJKiEDlDRgyp-0-150-0-225-crop.jpg?k=2f6c3fe12e"
     }
   },
-  "_id": "60601ed67d1b5f23321f72dc",
-  "date": "2021-03-28T06:14:46.389Z",
+  "_id": "60615c0656905538fc0f81d9",
+  "date": "2021-03-29T04:48:06.349Z",
   "goals": [
     {
       "completed": false,
-      "_id": "60601ed77d1b5f23321f72dd",
+      "_id": "60615c0756905538fc0f81da",
       "goal": "exercise"
     },
     {
       "completed": false,
-      "_id": "60601ed77d1b5f23321f72de",
+      "_id": "60615c0756905538fc0f81db",
       "goal": "scriptures"
     }
   ],
-  "food": "lebanese",
+  "food": "chili adobo soup",
   "memory": "",
   "__v": 2,
-  "id": "60601ed67d1b5f23321f72dc"
+  "id": "60615c0656905538fc0f81d9"
 }
