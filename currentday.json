@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "blue",
-    "pants": "green shorts",
-    "shoes": "slides",
+    "shirt": "winco",
+    "pants": "green",
+    "shoes": "tevas",
     "watch": "green"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "Tjugonde",
-      "artist": "Amason",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273583e75002acf75e3ed88d784"
+      "title": "Dream 1 (before the wind blows it all away) - Pt. 1",
+      "artist": "Max Richter",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273f8c65865f87dbcd6693856c9"
     },
     "recentMovie": {
       "title": "Jiro Dreams of Sushi",
@@ -18,24 +18,25 @@
       "review": "",
       "watched_date": "2021-03-26T00:00:00.000Z",
       "imageURL": "https://a.ltrbxd.com/resized/sm/upload/bm/y4/2x/mo/b4kKfthVn6V7U2GwJKiEDlDRgyp-0-150-0-225-crop.jpg?k=2f6c3fe12e"
-    }
+    },
+    "recentBook": "Atlas Shrugged"
   },
-  "_id": "60615c0656905538fc0f81d9",
-  "date": "2021-03-29T04:48:06.349Z",
+  "_id": "6062b677f930085c52dee68c",
+  "date": "2021-03-30T05:26:15.350Z",
   "goals": [
     {
       "completed": false,
-      "_id": "60615c0756905538fc0f81da",
+      "_id": "6062b678f930085c52dee68d",
       "goal": "exercise"
     },
     {
       "completed": false,
-      "_id": "60615c0756905538fc0f81db",
+      "_id": "6062b678f930085c52dee68e",
       "goal": "scriptures"
     }
   ],
-  "food": "chili adobo soup",
+  "food": "tomato soup",
   "memory": "",
   "__v": 2,
-  "id": "60615c0656905538fc0f81d9"
+  "id": "6062b677f930085c52dee68c"
 }
