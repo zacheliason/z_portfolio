@@ -164,5 +164,47 @@
     "memory": "",
     "__v": 2,
     "id": "6062b677f930085c52dee68c"
+  },
+  {
+    "outfit": {
+      "shirt": "sigur ros",
+      "pants": "patched jeans",
+      "shoes": "keans",
+      "watch": "green"
+    },
+    "recentMedia": {
+      "recentSong": {
+        "title": "Bloodbuzz Ohio",
+        "artist": "The National",
+        "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273287369f0a8e0d5e2c81e5afa"
+      },
+      "recentMovie": {
+        "title": "Jiro Dreams of Sushi",
+        "rating": 4,
+        "year": "2011",
+        "review": "",
+        "watched_date": "2021-03-26T00:00:00.000Z",
+        "imageURL": "https://a.ltrbxd.com/resized/sm/upload/bm/y4/2x/mo/b4kKfthVn6V7U2GwJKiEDlDRgyp-0-150-0-225-crop.jpg?k=2f6c3fe12e"
+      },
+      "recentBook": "Atlas Shrugged"
+    },
+    "_id": "60641b5d0c205175a382114c",
+    "date": "2021-03-31T06:49:01.022Z",
+    "goals": [
+      {
+        "completed": false,
+        "_id": "60641b5d0c205175a382114d",
+        "goal": "exercise"
+      },
+      {
+        "completed": false,
+        "_id": "60641b5d0c205175a382114e",
+        "goal": "scriptures"
+      }
+    ],
+    "food": "spaghetti",
+    "memory": "",
+    "__v": 2,
+    "id": "60641b5d0c205175a382114c"
   }
 ]

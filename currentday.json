@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "winco",
-    "pants": "green",
-    "shoes": "tevas",
+    "shirt": "sigur ros",
+    "pants": "patched jeans",
+    "shoes": "keans",
     "watch": "green"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "Dream 1 (before the wind blows it all away) - Pt. 1",
-      "artist": "Max Richter",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273f8c65865f87dbcd6693856c9"
+      "title": "Bloodbuzz Ohio",
+      "artist": "The National",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273287369f0a8e0d5e2c81e5afa"
     },
     "recentMovie": {
       "title": "Jiro Dreams of Sushi",
@@ -21,22 +21,22 @@
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "6062b677f930085c52dee68c",
-  "date": "2021-03-30T05:26:15.350Z",
+  "_id": "60641b5d0c205175a382114c",
+  "date": "2021-03-31T06:49:01.022Z",
   "goals": [
     {
       "completed": false,
-      "_id": "6062b678f930085c52dee68d",
+      "_id": "60641b5d0c205175a382114d",
       "goal": "exercise"
     },
     {
       "completed": false,
-      "_id": "6062b678f930085c52dee68e",
+      "_id": "60641b5d0c205175a382114e",
       "goal": "scriptures"
     }
   ],
-  "food": "tomato soup",
+  "food": "spaghetti",
   "memory": "",
   "__v": 2,
-  "id": "6062b677f930085c52dee68c"
+  "id": "60641b5d0c205175a382114c"
 }
