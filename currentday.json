@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "black long sleeve",
-    "pants": "patched jeans",
-    "shoes": "keans",
-    "watch": "green"
+    "shirt": "summer shirt",
+    "pants": "tan shorts",
+    "shoes": "green tevas",
+    "watch": "black"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "Every Single Night",
-      "artist": "Fiona Apple",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2731443bd487a471868735f050b"
+      "title": "Saint Pablo",
+      "artist": "Kanye West",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2732a7db835b912dc5014bd37f4"
     },
     "recentMovie": {
       "title": "Jiro Dreams of Sushi",
@@ -21,22 +21,22 @@
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "6066a4475dd8c3e65d34698d",
-  "date": "2021-04-02T04:57:43.913Z",
+  "_id": "60681aa9af4130f222bc829d",
+  "date": "2021-04-03T07:35:05.383Z",
   "goals": [
     {
       "completed": false,
-      "_id": "6066a4485dd8c3e65d34698e",
+      "_id": "60681aabaf4130f222bc829e",
       "goal": "exercise"
     },
     {
       "completed": false,
-      "_id": "6066a4485dd8c3e65d34698f",
+      "_id": "60681aabaf4130f222bc829f",
       "goal": "scriptures"
     }
   ],
   "food": "eggs",
   "memory": "",
   "__v": 2,
-  "id": "6066a4475dd8c3e65d34698d"
+  "id": "60681aa9af4130f222bc829d"
 }
