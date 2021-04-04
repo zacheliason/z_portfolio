@@ -1,42 +1,42 @@
 {
   "outfit": {
-    "shirt": "summer shirt",
+    "shirt": "blue",
     "pants": "tan shorts",
     "shoes": "green tevas",
-    "watch": "black"
+    "watch": "green"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "Saint Pablo",
+      "title": "Famous",
       "artist": "Kanye West",
       "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2732a7db835b912dc5014bd37f4"
     },
     "recentMovie": {
-      "title": "Jiro Dreams of Sushi",
-      "rating": 4,
-      "year": "2011",
+      "title": "Andrei Rublev",
+      "rating": 2.5,
+      "year": "1966",
       "review": "",
-      "watched_date": "2021-03-26T00:00:00.000Z",
-      "imageURL": "https://a.ltrbxd.com/resized/sm/upload/bm/y4/2x/mo/b4kKfthVn6V7U2GwJKiEDlDRgyp-0-150-0-225-crop.jpg?k=2f6c3fe12e"
+      "watched_date": "2021-04-03T00:00:00.000Z",
+      "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "60681aa9af4130f222bc829d",
-  "date": "2021-04-03T07:35:05.383Z",
+  "_id": "60697f74f50190f91ceb791d",
+  "date": "2021-04-04T08:57:24.395Z",
   "goals": [
     {
       "completed": false,
-      "_id": "60681aabaf4130f222bc829e",
+      "_id": "60697f75f50190f91ceb791e",
       "goal": "exercise"
     },
     {
-      "completed": false,
-      "_id": "60681aabaf4130f222bc829f",
+      "completed": true,
+      "_id": "60697f75f50190f91ceb791f",
       "goal": "scriptures"
     }
   ],
-  "food": "eggs",
+  "food": "cafe rio salad",
   "memory": "",
   "__v": 2,
-  "id": "60681aa9af4130f222bc829d"
+  "id": "60697f74f50190f91ceb791d"
 }
