@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "blue",
+    "shirt": "striped blue",
     "pants": "tan shorts",
-    "shoes": "green tevas",
+    "shoes": "yellow tevas",
     "watch": "green"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "Famous",
-      "artist": "Kanye West",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2732a7db835b912dc5014bd37f4"
+      "title": "Married in a Gold Rush (feat. Danielle Haim)",
+      "artist": "Vampire Weekend",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273a2b1d3e73c66663c01351bcf"
     },
     "recentMovie": {
       "title": "Andrei Rublev",
@@ -21,22 +21,22 @@
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "60697f74f50190f91ceb791d",
-  "date": "2021-04-04T08:57:24.395Z",
+  "_id": "606a9e4485a55bffe072a304",
+  "date": "2021-04-05T05:21:08.700Z",
   "goals": [
     {
       "completed": false,
-      "_id": "60697f75f50190f91ceb791e",
+      "_id": "606a9e4585a55bffe072a305",
       "goal": "exercise"
     },
     {
-      "completed": true,
-      "_id": "60697f75f50190f91ceb791f",
+      "completed": false,
+      "_id": "606a9e4585a55bffe072a306",
       "goal": "scriptures"
     }
   ],
-  "food": "cafe rio salad",
+  "food": "pot pie",
   "memory": "",
   "__v": 2,
-  "id": "60697f74f50190f91ceb791d"
+  "id": "606a9e4485a55bffe072a304"
 }
