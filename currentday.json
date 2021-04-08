@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "striped blue",
-    "pants": "tan shorts",
-    "shoes": "yellow tevas",
-    "watch": "green"
+    "shirt": "sigur ros shirt",
+    "pants": "brown corduroy",
+    "shoes": "green tevas",
+    "watch": "black star"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "Married in a Gold Rush (feat. Danielle Haim)",
-      "artist": "Vampire Weekend",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273a2b1d3e73c66663c01351bcf"
+      "title": "The Wake Pt. 3 & 2 (see page 87, 58, and 48)",
+      "artist": "Slauson Malone",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2734060d907950483fb048055aa"
     },
     "recentMovie": {
       "title": "Andrei Rublev",
@@ -21,22 +21,22 @@
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "606a9e4485a55bffe072a304",
-  "date": "2021-04-05T05:21:08.700Z",
+  "_id": "606e9a50656b760b905f2c07",
+  "date": "2021-04-08T05:53:20.432Z",
   "goals": [
     {
       "completed": false,
-      "_id": "606a9e4585a55bffe072a305",
+      "_id": "606e9a51656b760b905f2c08",
       "goal": "exercise"
     },
     {
       "completed": false,
-      "_id": "606a9e4585a55bffe072a306",
+      "_id": "606e9a51656b760b905f2c09",
       "goal": "scriptures"
     }
   ],
-  "food": "pot pie",
+  "food": "hog jowl nachos",
   "memory": "",
   "__v": 2,
-  "id": "606a9e4485a55bffe072a304"
+  "id": "606e9a50656b760b905f2c07"
 }

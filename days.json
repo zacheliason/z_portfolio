@@ -416,5 +416,47 @@
     "memory": "",
     "__v": 2,
     "id": "606a9e4485a55bffe072a304"
+  },
+  {
+    "outfit": {
+      "shirt": "sigur ros shirt",
+      "pants": "brown corduroy",
+      "shoes": "green tevas",
+      "watch": "black star"
+    },
+    "recentMedia": {
+      "recentSong": {
+        "title": "The Wake Pt. 3 & 2 (see page 87, 58, and 48)",
+        "artist": "Slauson Malone",
+        "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2734060d907950483fb048055aa"
+      },
+      "recentMovie": {
+        "title": "Andrei Rublev",
+        "rating": 2.5,
+        "year": "1966",
+        "review": "",
+        "watched_date": "2021-04-03T00:00:00.000Z",
+        "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
+      },
+      "recentBook": "Atlas Shrugged"
+    },
+    "_id": "606e9a50656b760b905f2c07",
+    "date": "2021-04-08T05:53:20.432Z",
+    "goals": [
+      {
+        "completed": false,
+        "_id": "606e9a51656b760b905f2c08",
+        "goal": "exercise"
+      },
+      {
+        "completed": false,
+        "_id": "606e9a51656b760b905f2c09",
+        "goal": "scriptures"
+      }
+    ],
+    "food": "hog jowl nachos",
+    "memory": "",
+    "__v": 2,
+    "id": "606e9a50656b760b905f2c07"
   }
 ]
