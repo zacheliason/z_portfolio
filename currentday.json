@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "sigur ros shirt",
+    "shirt": "white buttonup",
     "pants": "brown corduroy",
     "shoes": "green tevas",
-    "watch": "black star"
+    "watch": "brown"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "The Wake Pt. 3 & 2 (see page 87, 58, and 48)",
-      "artist": "Slauson Malone",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2734060d907950483fb048055aa"
+      "title": "U (Man Like)",
+      "artist": "Bon Iver",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2735cc90d375ab1e4423615654c"
     },
     "recentMovie": {
       "title": "Andrei Rublev",
@@ -21,22 +21,22 @@
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "606e9a50656b760b905f2c07",
-  "date": "2021-04-08T05:53:20.432Z",
+  "_id": "606ff6ade3081c3095ddaf82",
+  "date": "2021-04-09T06:39:41.480Z",
   "goals": [
     {
       "completed": false,
-      "_id": "606e9a51656b760b905f2c08",
+      "_id": "606ff6aee3081c3095ddaf83",
       "goal": "exercise"
     },
     {
       "completed": false,
-      "_id": "606e9a51656b760b905f2c09",
+      "_id": "606ff6aee3081c3095ddaf84",
       "goal": "scriptures"
     }
   ],
-  "food": "hog jowl nachos",
+  "food": "gyros",
   "memory": "",
   "__v": 2,
-  "id": "606e9a50656b760b905f2c07"
+  "id": "606ff6ade3081c3095ddaf82"
 }
