@@ -500,5 +500,47 @@
     "memory": "",
     "__v": 2,
     "id": "606ff6ade3081c3095ddaf82"
+  },
+  {
+    "outfit": {
+      "shirt": "blue striped",
+      "pants": "tan shorts",
+      "shoes": "green tevas",
+      "watch": "black star"
+    },
+    "recentMedia": {
+      "recentSong": {
+        "title": "Águas De Março",
+        "artist": "Elis Regina",
+        "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2731b3ef7785a0a4e5b08b5418e"
+      },
+      "recentMovie": {
+        "title": "Andrei Rublev",
+        "rating": 2.5,
+        "year": "1966",
+        "review": "",
+        "watched_date": "2021-04-03T00:00:00.000Z",
+        "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
+      },
+      "recentBook": "Atlas Shrugged"
+    },
+    "_id": "607142722573ef419f76d802",
+    "date": "2021-04-10T06:15:14.877Z",
+    "goals": [
+      {
+        "completed": true,
+        "_id": "607142732573ef419f76d803",
+        "goal": "exercise"
+      },
+      {
+        "completed": true,
+        "_id": "607142732573ef419f76d804",
+        "goal": "scriptures"
+      }
+    ],
+    "food": "buddha bowl",
+    "memory": "",
+    "__v": 2,
+    "id": "607142722573ef419f76d802"
   }
 ]
