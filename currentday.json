@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "blue striped",
+    "shirt": "black striped",
     "pants": "tan shorts",
     "shoes": "green tevas",
-    "watch": "black star"
+    "watch": "green"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "Águas De Março",
-      "artist": "Elis Regina",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2731b3ef7785a0a4e5b08b5418e"
+      "title": "It Was Always You, Helen",
+      "artist": "Philip Glass",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273aff082118fe566658a437fd1"
     },
     "recentMovie": {
       "title": "Andrei Rublev",
@@ -21,22 +21,22 @@
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "607142722573ef419f76d802",
-  "date": "2021-04-10T06:15:14.877Z",
+  "_id": "607288fb201f9d4fc1a4c99f",
+  "date": "2021-04-11T05:28:27.132Z",
   "goals": [
     {
-      "completed": true,
-      "_id": "607142732573ef419f76d803",
+      "completed": false,
+      "_id": "607288fb201f9d4fc1a4c9a0",
       "goal": "exercise"
     },
     {
       "completed": true,
-      "_id": "607142732573ef419f76d804",
+      "_id": "607288fb201f9d4fc1a4c9a1",
       "goal": "scriptures"
     }
   ],
-  "food": "buddha bowl",
+  "food": "granola",
   "memory": "",
   "__v": 2,
-  "id": "607142722573ef419f76d802"
+  "id": "607288fb201f9d4fc1a4c99f"
 }

@@ -542,5 +542,47 @@
     "memory": "",
     "__v": 2,
     "id": "607142722573ef419f76d802"
+  },
+  {
+    "outfit": {
+      "shirt": "black striped",
+      "pants": "tan shorts",
+      "shoes": "green tevas",
+      "watch": "green"
+    },
+    "recentMedia": {
+      "recentSong": {
+        "title": "It Was Always You, Helen",
+        "artist": "Philip Glass",
+        "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273aff082118fe566658a437fd1"
+      },
+      "recentMovie": {
+        "title": "Andrei Rublev",
+        "rating": 2.5,
+        "year": "1966",
+        "review": "",
+        "watched_date": "2021-04-03T00:00:00.000Z",
+        "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
+      },
+      "recentBook": "Atlas Shrugged"
+    },
+    "_id": "607288fb201f9d4fc1a4c99f",
+    "date": "2021-04-11T05:28:27.132Z",
+    "goals": [
+      {
+        "completed": false,
+        "_id": "607288fb201f9d4fc1a4c9a0",
+        "goal": "exercise"
+      },
+      {
+        "completed": true,
+        "_id": "607288fb201f9d4fc1a4c9a1",
+        "goal": "scriptures"
+      }
+    ],
+    "food": "granola",
+    "memory": "",
+    "__v": 2,
+    "id": "607288fb201f9d4fc1a4c99f"
   }
 ]
