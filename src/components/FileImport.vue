@@ -229,9 +229,10 @@ export default {
       newArray.sort((a, b) => {
         return b.minutesListened - a.minutesListened;
       });
+      console.log("Top 50 Artists");
       let newNewArray = newArray.map(x => x.artistName + " " + x.minutesListened + " minutes listened")
-      for (let i = 0; i < 50; i++) {
-        console.log(newNewArray[i]);
+      for (let i = 1; i < 51; i++) {
+        console.log("Number " + i + " " + newNewArray[i]);
       }
       let coolobj = {}
       for (let i = 0; i < 20; i++) {
