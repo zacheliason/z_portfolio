@@ -229,7 +229,10 @@ export default {
       newArray.sort((a, b) => {
         return b.minutesListened - a.minutesListened;
       });
-      newArray.forEach(x => console.log(x));
+      let newNewArray = newArray.map(x => x.artistName + " " + x.minutesListened + " minutes listened")
+      for (let i = 0; i < 50; i++) {
+        console.log(newNewArray[i]);
+      }
       let coolobj = {}
       for (let i = 0; i < 20; i++) {
         this.$root.$data.topArtists.push(newArray[i].artistName)
