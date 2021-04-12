@@ -584,5 +584,47 @@
     "memory": "",
     "__v": 2,
     "id": "607288fb201f9d4fc1a4c99f"
+  },
+  {
+    "outfit": {
+      "shirt": "blue",
+      "pants": "corduroy",
+      "shoes": "slides",
+      "watch": "green"
+    },
+    "recentMedia": {
+      "recentSong": {
+        "title": "Sweet FA",
+        "artist": "Peach Pit",
+        "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273241c6f0d19ffcda38f58c7f8"
+      },
+      "recentMovie": {
+        "title": "Andrei Rublev",
+        "rating": 2.5,
+        "year": "1966",
+        "review": "",
+        "watched_date": "2021-04-03T00:00:00.000Z",
+        "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
+      },
+      "recentBook": "Atlas Shrugged"
+    },
+    "_id": "6073ddf3e794345e9b99343e",
+    "date": "2021-04-12T05:43:15.565Z",
+    "goals": [
+      {
+        "completed": false,
+        "_id": "6073ddf4e794345e9b99343f",
+        "goal": "exercise"
+      },
+      {
+        "completed": false,
+        "_id": "6073ddf4e794345e9b993440",
+        "goal": "scriptures"
+      }
+    ],
+    "food": "kale salad",
+    "memory": "",
+    "__v": 2,
+    "id": "6073ddf3e794345e9b99343e"
   }
 ]

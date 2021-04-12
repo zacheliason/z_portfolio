@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "black striped",
-    "pants": "tan shorts",
-    "shoes": "green tevas",
+    "shirt": "blue",
+    "pants": "corduroy",
+    "shoes": "slides",
     "watch": "green"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "It Was Always You, Helen",
-      "artist": "Philip Glass",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273aff082118fe566658a437fd1"
+      "title": "Sweet FA",
+      "artist": "Peach Pit",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273241c6f0d19ffcda38f58c7f8"
     },
     "recentMovie": {
       "title": "Andrei Rublev",
@@ -21,22 +21,22 @@
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "607288fb201f9d4fc1a4c99f",
-  "date": "2021-04-11T05:28:27.132Z",
+  "_id": "6073ddf3e794345e9b99343e",
+  "date": "2021-04-12T05:43:15.565Z",
   "goals": [
     {
       "completed": false,
-      "_id": "607288fb201f9d4fc1a4c9a0",
+      "_id": "6073ddf4e794345e9b99343f",
       "goal": "exercise"
     },
     {
-      "completed": true,
-      "_id": "607288fb201f9d4fc1a4c9a1",
+      "completed": false,
+      "_id": "6073ddf4e794345e9b993440",
       "goal": "scriptures"
     }
   ],
-  "food": "granola",
+  "food": "kale salad",
   "memory": "",
   "__v": 2,
-  "id": "607288fb201f9d4fc1a4c99f"
+  "id": "6073ddf3e794345e9b99343e"
 }
