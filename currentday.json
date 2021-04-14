@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "blue",
-    "pants": "corduroy",
-    "shoes": "slides",
+    "shirt": "sigur ros",
+    "pants": "patched jeans",
+    "shoes": "keans",
     "watch": "green"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "Sweet FA",
-      "artist": "Peach Pit",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273241c6f0d19ffcda38f58c7f8"
+      "title": "I Miss You (Dobie Rub Part One) - Sunshine Mix",
+      "artist": "Björk",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2731abefda9e5433471e771256b"
     },
     "recentMovie": {
       "title": "Andrei Rublev",
@@ -21,22 +21,22 @@
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "6073ddf3e794345e9b99343e",
-  "date": "2021-04-12T05:43:15.565Z",
+  "_id": "6076759d1198ed4b4f9ec393",
+  "date": "2021-04-14T04:54:53.486Z",
   "goals": [
     {
       "completed": false,
-      "_id": "6073ddf4e794345e9b99343f",
+      "_id": "6076759e1198ed4b4f9ec394",
       "goal": "exercise"
     },
     {
       "completed": false,
-      "_id": "6073ddf4e794345e9b993440",
+      "_id": "6076759e1198ed4b4f9ec395",
       "goal": "scriptures"
     }
   ],
-  "food": "kale salad",
+  "food": "eggs + rice",
   "memory": "",
   "__v": 2,
-  "id": "6073ddf3e794345e9b99343e"
+  "id": "6076759d1198ed4b4f9ec393"
 }
