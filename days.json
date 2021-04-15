@@ -668,5 +668,47 @@
     "memory": "",
     "__v": 2,
     "id": "6076759d1198ed4b4f9ec393"
+  },
+  {
+    "outfit": {
+      "shirt": "blue",
+      "pants": "corduroy",
+      "shoes": "docs",
+      "watch": "green"
+    },
+    "recentMedia": {
+      "recentSong": {
+        "title": "Put Me Down",
+        "artist": "The Cranberries",
+        "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273f6325f361d7803ad0d908451"
+      },
+      "recentMovie": {
+        "title": "Andrei Rublev",
+        "rating": 2.5,
+        "year": "1966",
+        "review": "",
+        "watched_date": "2021-04-03T00:00:00.000Z",
+        "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
+      },
+      "recentBook": "Atlas Shrugged"
+    },
+    "_id": "6077dc4a1209c0633e247829",
+    "date": "2021-04-15T06:25:14.962Z",
+    "goals": [
+      {
+        "completed": false,
+        "_id": "6077dc4b1209c0633e24782a",
+        "goal": "exercise"
+      },
+      {
+        "completed": true,
+        "_id": "6077dc4b1209c0633e24782b",
+        "goal": "scriptures"
+      }
+    ],
+    "food": "eggs",
+    "memory": "",
+    "__v": 2,
+    "id": "6077dc4a1209c0633e247829"
   }
 ]

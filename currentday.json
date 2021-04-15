@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "sigur ros",
-    "pants": "patched jeans",
-    "shoes": "keans",
+    "shirt": "blue",
+    "pants": "corduroy",
+    "shoes": "docs",
     "watch": "green"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "I Miss You (Dobie Rub Part One) - Sunshine Mix",
-      "artist": "Björk",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2731abefda9e5433471e771256b"
+      "title": "Put Me Down",
+      "artist": "The Cranberries",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273f6325f361d7803ad0d908451"
     },
     "recentMovie": {
       "title": "Andrei Rublev",
@@ -21,22 +21,22 @@
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "6076759d1198ed4b4f9ec393",
-  "date": "2021-04-14T04:54:53.486Z",
+  "_id": "6077dc4a1209c0633e247829",
+  "date": "2021-04-15T06:25:14.962Z",
   "goals": [
     {
       "completed": false,
-      "_id": "6076759e1198ed4b4f9ec394",
+      "_id": "6077dc4b1209c0633e24782a",
       "goal": "exercise"
     },
     {
-      "completed": false,
-      "_id": "6076759e1198ed4b4f9ec395",
+      "completed": true,
+      "_id": "6077dc4b1209c0633e24782b",
       "goal": "scriptures"
     }
   ],
-  "food": "eggs + rice",
+  "food": "eggs",
   "memory": "",
   "__v": 2,
-  "id": "6076759d1198ed4b4f9ec393"
+  "id": "6077dc4a1209c0633e247829"
 }
