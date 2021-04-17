@@ -710,5 +710,47 @@
     "memory": "",
     "__v": 2,
     "id": "6077dc4a1209c0633e247829"
+  },
+  {
+    "outfit": {
+      "shirt": "let's get visual",
+      "pants": "corduroy",
+      "shoes": "tevas",
+      "watch": "green"
+    },
+    "recentMedia": {
+      "recentSong": {
+        "title": "Judy Garland",
+        "artist": "Frog",
+        "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b27356a3d892a04285d46ed52d7d"
+      },
+      "recentMovie": {
+        "title": "Andrei Rublev",
+        "rating": 2.5,
+        "year": "1966",
+        "review": "",
+        "watched_date": "2021-04-03T00:00:00.000Z",
+        "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
+      },
+      "recentBook": "Atlas Shrugged"
+    },
+    "_id": "607a7a4ce157817e3ef8eb94",
+    "date": "2021-04-17T06:03:56.726Z",
+    "goals": [
+      {
+        "completed": false,
+        "_id": "607a7a4ee157817e3ef8eb95",
+        "goal": "exercise"
+      },
+      {
+        "completed": false,
+        "_id": "607a7a4ee157817e3ef8eb96",
+        "goal": "scriptures"
+      }
+    ],
+    "food": "greek truck",
+    "memory": "",
+    "__v": 2,
+    "id": "607a7a4ce157817e3ef8eb94"
   }
 ]

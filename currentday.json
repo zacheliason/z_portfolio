@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "blue",
+    "shirt": "let's get visual",
     "pants": "corduroy",
-    "shoes": "docs",
+    "shoes": "tevas",
     "watch": "green"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "Put Me Down",
-      "artist": "The Cranberries",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b273f6325f361d7803ad0d908451"
+      "title": "Judy Garland",
+      "artist": "Frog",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b27356a3d892a04285d46ed52d7d"
     },
     "recentMovie": {
       "title": "Andrei Rublev",
@@ -21,22 +21,22 @@
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "6077dc4a1209c0633e247829",
-  "date": "2021-04-15T06:25:14.962Z",
+  "_id": "607a7a4ce157817e3ef8eb94",
+  "date": "2021-04-17T06:03:56.726Z",
   "goals": [
     {
       "completed": false,
-      "_id": "6077dc4b1209c0633e24782a",
+      "_id": "607a7a4ee157817e3ef8eb95",
       "goal": "exercise"
     },
     {
-      "completed": true,
-      "_id": "6077dc4b1209c0633e24782b",
+      "completed": false,
+      "_id": "607a7a4ee157817e3ef8eb96",
       "goal": "scriptures"
     }
   ],
-  "food": "eggs",
+  "food": "greek truck",
   "memory": "",
   "__v": 2,
-  "id": "6077dc4a1209c0633e247829"
+  "id": "607a7a4ce157817e3ef8eb94"
 }
