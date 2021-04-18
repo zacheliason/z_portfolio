@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "let's get visual",
-    "pants": "corduroy",
-    "shoes": "tevas",
+    "shirt": "plaid short sleeved",
+    "pants": "tan shorts",
+    "shoes": "green tevas",
     "watch": "green"
   },
   "recentMedia": {
     "recentSong": {
-      "title": "Judy Garland",
-      "artist": "Frog",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b27356a3d892a04285d46ed52d7d"
+      "title": "Voices of Light: XIV. The Fire of the Dove - Epiloque - Voice",
+      "artist": "Richard Einhorn",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b27300b854609aa8ae2cae62eefb"
     },
     "recentMovie": {
       "title": "Andrei Rublev",
@@ -21,22 +21,22 @@
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "607a7a4ce157817e3ef8eb94",
-  "date": "2021-04-17T06:03:56.726Z",
+  "_id": "607bbcd074a50a9aebc3900a",
+  "date": "2021-04-18T05:00:00.200Z",
   "goals": [
     {
       "completed": false,
-      "_id": "607a7a4ee157817e3ef8eb95",
+      "_id": "607bbcd074a50a9aebc3900b",
       "goal": "exercise"
     },
     {
-      "completed": false,
-      "_id": "607a7a4ee157817e3ef8eb96",
+      "completed": true,
+      "_id": "607bbcd074a50a9aebc3900c",
       "goal": "scriptures"
     }
   ],
-  "food": "greek truck",
+  "food": "kokos spicy pork",
   "memory": "",
   "__v": 2,
-  "id": "607a7a4ce157817e3ef8eb94"
+  "id": "607bbcd074a50a9aebc3900a"
 }
