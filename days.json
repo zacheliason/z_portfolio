@@ -794,5 +794,47 @@
     "memory": "",
     "__v": 2,
     "id": "607bbcd074a50a9aebc3900a"
+  },
+  {
+    "outfit": {
+      "shirt": "white buttonup",
+      "pants": "blue",
+      "shoes": "docs",
+      "watch": "green"
+    },
+    "recentMedia": {
+      "recentSong": {
+        "title": "Hares On The Mountain",
+        "artist": "Shirley Collins",
+        "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b27386f9b92e72244f3c51482cba"
+      },
+      "recentMovie": {
+        "title": "Andrei Rublev",
+        "rating": 2.5,
+        "year": "1966",
+        "review": "",
+        "watched_date": "2021-04-03T00:00:00.000Z",
+        "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
+      },
+      "recentBook": "Atlas Shrugged"
+    },
+    "_id": "607d0d13bcb11ea47174ba07",
+    "date": "2021-04-19T04:54:43.213Z",
+    "goals": [
+      {
+        "completed": false,
+        "_id": "607d0d14bcb11ea47174ba08",
+        "goal": "exercise"
+      },
+      {
+        "completed": false,
+        "_id": "607d0d14bcb11ea47174ba09",
+        "goal": "scriptures"
+      }
+    ],
+    "food": "sweet potato salad",
+    "memory": "",
+    "__v": 2,
+    "id": "607d0d13bcb11ea47174ba07"
   }
 ]
