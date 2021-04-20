@@ -836,5 +836,47 @@
     "memory": "",
     "__v": 2,
     "id": "607d0d13bcb11ea47174ba07"
+  },
+  {
+    "outfit": {
+      "shirt": "grey pullover",
+      "pants": "tan shorts",
+      "shoes": "green tevas",
+      "watch": "green"
+    },
+    "recentMedia": {
+      "recentSong": {
+        "title": "You And Me",
+        "artist": "Penny & The Quarters",
+        "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2731cb6ff5838dc35256347ef9a"
+      },
+      "recentMovie": {
+        "title": "Andrei Rublev",
+        "rating": 2.5,
+        "year": "1966",
+        "review": "",
+        "watched_date": "2021-04-03T00:00:00.000Z",
+        "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
+      },
+      "recentBook": "Atlas Shrugged"
+    },
+    "_id": "607e6c42e2788ed406dadf4c",
+    "date": "2021-04-20T05:53:06.339Z",
+    "goals": [
+      {
+        "completed": false,
+        "_id": "607e6c43e2788ed406dadf4d",
+        "goal": "exercise"
+      },
+      {
+        "completed": false,
+        "_id": "607e6c43e2788ed406dadf4e",
+        "goal": "scriptures"
+      }
+    ],
+    "food": "pizza",
+    "memory": "",
+    "__v": 2,
+    "id": "607e6c42e2788ed406dadf4c"
   }
 ]
