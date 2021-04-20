@@ -1,15 +1,15 @@
 {
   "outfit": {
-    "shirt": "grey pullover",
-    "pants": "tan shorts",
-    "shoes": "green tevas",
-    "watch": "green"
+    "shirt": "",
+    "pants": "",
+    "shoes": "",
+    "watch": ""
   },
   "recentMedia": {
     "recentSong": {
-      "title": "You And Me",
-      "artist": "Penny & The Quarters",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2731cb6ff5838dc35256347ef9a"
+      "title": "lovers’ carvings",
+      "artist": "Bibio",
+      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2730041c0e94bc40e081cec1fb7"
     },
     "recentMovie": {
       "title": "Andrei Rublev",
@@ -21,22 +21,22 @@
     },
     "recentBook": "Atlas Shrugged"
   },
-  "_id": "607e6c42e2788ed406dadf4c",
-  "date": "2021-04-20T05:53:06.339Z",
+  "_id": "607e6da49e3566d4e722f23f",
+  "date": "2021-04-20T05:59:00.720Z",
   "goals": [
     {
       "completed": false,
-      "_id": "607e6c43e2788ed406dadf4d",
+      "_id": "607e6da59e3566d4e722f240",
       "goal": "exercise"
     },
     {
       "completed": false,
-      "_id": "607e6c43e2788ed406dadf4e",
+      "_id": "607e6da59e3566d4e722f241",
       "goal": "scriptures"
     }
   ],
-  "food": "pizza",
+  "food": "",
   "memory": "",
   "__v": 2,
-  "id": "607e6c42e2788ed406dadf4c"
+  "id": "607e6da49e3566d4e722f23f"
 }
