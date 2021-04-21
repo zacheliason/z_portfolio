@@ -1,42 +1,21 @@
 {
-  "outfit": {
-    "shirt": "",
-    "pants": "",
-    "shoes": "",
-    "watch": ""
-  },
-  "recentMedia": {
-    "recentSong": {
-      "title": "lovers’ carvings",
-      "artist": "Bibio",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2730041c0e94bc40e081cec1fb7"
-    },
-    "recentMovie": {
-      "title": "Andrei Rublev",
-      "rating": 2.5,
-      "year": "1966",
-      "review": "",
-      "watched_date": "2021-04-03T00:00:00.000Z",
-      "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
-    },
-    "recentBook": "Atlas Shrugged"
-  },
-  "_id": "607e6da49e3566d4e722f23f",
-  "date": "2021-04-20T05:59:00.720Z",
-  "goals": [
-    {
-      "completed": false,
-      "_id": "607e6da59e3566d4e722f240",
-      "goal": "exercise"
-    },
-    {
-      "completed": false,
-      "_id": "607e6da59e3566d4e722f241",
-      "goal": "scriptures"
-    }
-  ],
-  "food": "",
-  "memory": "",
-  "__v": 2,
-  "id": "607e6da49e3566d4e722f23f"
+"date": 1618976629,
+"outfit": {
+"shirt": "jackson wy",
+"pants": "green hiking",
+"shoes": "keens",
+"watch": "green"
+},
+"food": "",
+"memory": "",
+"recentmedia": {
+"recentbook": ""
+},
+"goals": [{
+"goal": "exercise",
+"completed": ""
+},{
+"goal": "scriptures",
+"completed": "t"
+}]
 }
