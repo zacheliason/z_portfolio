@@ -920,5 +920,47 @@
     "memory": "",
     "__v": 2,
     "id": "607e6da49e3566d4e722f23f"
+  },
+  {
+    "outfit": {
+      "shirt": "",
+      "pants": "",
+      "shoes": "",
+      "watch": ""
+    },
+    "recentMedia": {
+      "recentSong": {
+        "title": "Night Light",
+        "artist": "Miho Hatori",
+        "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2730172edd382db6c69d7f00832"
+      },
+      "recentMovie": {
+        "title": "Andrei Rublev",
+        "rating": 2.5,
+        "year": "1966",
+        "review": "",
+        "watched_date": "2021-04-03T00:00:00.000Z",
+        "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
+      },
+      "recentBook": "Atlas Shrugged"
+    },
+    "_id": "6082352542e66ae65be93399",
+    "date": "2021-04-23T02:47:01.403Z",
+    "goals": [
+      {
+        "completed": false,
+        "_id": "6082352642e66ae65be9339a",
+        "goal": "exercise"
+      },
+      {
+        "completed": false,
+        "_id": "6082352642e66ae65be9339b",
+        "goal": "scriptures"
+      }
+    ],
+    "food": "",
+    "memory": "",
+    "__v": 2,
+    "id": "6082352542e66ae65be93399"
   }
 ]
