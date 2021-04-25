@@ -962,5 +962,47 @@
     "memory": "",
     "__v": 2,
     "id": "6082352542e66ae65be93399"
+  },
+  {
+    "outfit": {
+      "shirt": "",
+      "pants": "",
+      "shoes": "",
+      "watch": ""
+    },
+    "recentMedia": {
+      "recentSong": {
+        "title": "Benzoin Gum + Asafoetida = 10 Years Later",
+        "artist": "MF DOOM",
+        "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2733793a5691f123282e9a72457"
+      },
+      "recentMovie": {
+        "title": "Andrei Rublev",
+        "rating": 2.5,
+        "year": "1966",
+        "review": "",
+        "watched_date": "2021-04-03T00:00:00.000Z",
+        "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
+      },
+      "recentBook": "Atlas Shrugged"
+    },
+    "_id": "60852dbd44cec2f54e8d6f86",
+    "date": "2021-04-25T08:52:13.099Z",
+    "goals": [
+      {
+        "completed": false,
+        "_id": "60852dbe44cec2f54e8d6f87",
+        "goal": "exercise"
+      },
+      {
+        "completed": false,
+        "_id": "60852dbe44cec2f54e8d6f88",
+        "goal": "scriptures"
+      }
+    ],
+    "food": "",
+    "memory": "",
+    "__v": 2,
+    "id": "60852dbd44cec2f54e8d6f86"
   }
 ]
