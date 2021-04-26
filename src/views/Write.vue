@@ -2,6 +2,8 @@
 <div class="sites" id="subpage">
   <div class="centerm">
   <button @click="writeToFile()">Write to File</button>
+  <button @click="convertBlob()">Blob</button>
+
   </div>
 
 </div>
@@ -19,6 +21,20 @@ export default {
     }
   },
   methods: {
+    async convertBlob(){
+      let blobArr = this.$root.$data.blobs.map(x => x.ZDATA)
+      for(let blob of blobArr) {
+        //console.log(blob);
+        const blb    = new Blob([blob]);
+        const reader = new FileReader();
+
+        // Start reading the blob as text.
+        reader.readAsText(blb);
+        reader.onload = function() {
+          console.log(reader.result);
+        }
+      }
+    },
     observerClean (obj) {
       return Object.keys(obj).reduce(
         (res, e) => Object.assign(res, { [e]: obj[e] }),

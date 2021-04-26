@@ -4,26 +4,11 @@
     <div class="mobile">
       <p>This app does not work on mobile. Please try a computer!</p>
     </div>
-    <div class="demoPage" v-if="demoPage">
-      <div class="">
-        <h1>Spotify Streamgraph</h1>
-        <h2>This is an app I made in my free time over last winter break. It creates a streamgraph of a user's streaming history showing how much they listened to their top 20 artists on Spotify over the period specified by the files imported. It is not finished and there are still many changes I would like to make! (i.e. a legend toolbar, ability to resize x-axis, download as PDF, various style improvements, more error handling) Nevertheless, here it is in its current state.</h2>
-        <h1>Static streamgraph examples:</h1>
-        <p class="fixme">
-          [scroll down]
-        </p>
-        <img src="/images/Screen Shot 2021-02-21 at 15.56.03.jpg" alt="">
-        <img src="/images/Screen Shot 2021-02-21 at 15.56.39.jpg" alt="">
-        <img src="/images/Screen Shot 2021-02-21 at 15.56.46.png" alt="">
-        <button type="button" @click="changeDemo" name="button">Continue</button>
-
-      </div>
-    </div>
-    <div class="frontpage" v-if="frontPage && !demoPage">
+    <div class="frontpage" v-if="frontPage">
       <p>First, request your data from Spotify at the bottom of your account's <a target="_blank" href="https://www.spotify.com/us/account/privacy/">Privacy Settings</a> page.
          (it may take up to 30 days to gather your streaming history) You will receive an email once it is ready to download. Then, <span class="bold" v-on:click="changePage">click here.</span> </p>
     </div>
-    <div class="backpage" v-if="!frontPage && !demoPage">
+    <div class="backpage" v-if="!frontPage">
 
       <div class="importStuff" v-if="importPending">
         <div class="left">
@@ -65,7 +50,7 @@ import moment from 'moment';
 import * as d3 from "d3";
 //import * as html2canvas from 'html2canvas';
 //import * as jsPDF from 'jspdf';
-import * as html2pdf from 'jspdf-html2canvas';
+//import * as html2pdf from 'jspdf-html2canvas';
 
 export default {
   name: "HelloWorld",
@@ -76,13 +61,14 @@ export default {
     return {
       demoPage: true,
       fileSelected: false,
-      frontPage: false,
+      frontPage: true,
       cardinalSwitch: true,
       stepSwitch: false,
       pointSwitch: false,
       importText: "Add File",
       fileAdded: false,
       fileNum: 0,
+      tempArray: [],
       buttonHov: {
         backgroundcolor: 'white',
         color: 'black',
@@ -200,6 +186,7 @@ export default {
           this.$root.$data.importedJSON = result;
         } else if (this.fileAdded) {
           this.$root.$data.importedJSON = this.$root.$data.importedJSON.concat(result);
+
         }
       }
       fr.readAsText(files.item(0))
@@ -232,7 +219,7 @@ export default {
       console.log("Top 50 Artists");
       let newNewArray = newArray.map(x => x.artistName + " " + x.minutesListened + " minutes listened")
       for (let i = 1; i < 51; i++) {
-        console.log("Number " + i + " " + newNewArray[i]);
+        //console.log("Number " + i + " " + newNewArray[i]);
       }
       let coolobj = {}
       for (let i = 0; i < 20; i++) {
@@ -349,8 +336,8 @@ export default {
       let csvToUse = this.$root.$data.csv;
       let topartistskeys = this.$root.$data.topArtistsKeys
       // set the dimensions and margins of the graph
-      if (window.innerWidth) console.log(window.innerWidth);
-      else console.log(920);
+      //if (window.innerWidth) console.log(window.innerWidth);
+      //else console.log(920);
       var margin = {
           top: 20,
           right: 30,
@@ -393,7 +380,7 @@ export default {
           .style("fill", "white")
           .style("font-family", "space mono"));
 
-      console.log(xAxis);
+      //console.log(xAxis);
       svg.append("text")
         .attr("text-anchor", "end")
         .attr("x", width)
@@ -504,7 +491,10 @@ export default {
         .on("mouseover", mouseover)
         .on("mousemove", mousemove)
         .on("mouseleave", mouseleave)
-
+        console.log("SVG: ");
+        console.log(svg);
+        console.log("AREA:");
+        console.log(area);
       /*
         svg
         .selectAll("myCircles")

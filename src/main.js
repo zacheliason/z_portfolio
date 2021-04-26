@@ -3,10 +3,13 @@ import App from "./App.vue";
 import router from "./router";
 import dataset from './dataset.js'
 import dayJSON from '../currentday.json'
+import blobs from './blob.json'
 
 Vue.config.productionTip = false;
 delete dayJSON.__ob__
+delete blobs.__ob__
 let data = {
+  blobs: blobs,
   dayJSON: dayJSON,
   importPending: true,
   importedJSON: [],
