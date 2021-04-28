@@ -1,42 +1,21 @@
 {
-  "outfit": {
-    "shirt": "",
-    "pants": "",
-    "shoes": "",
-    "watch": ""
-  },
-  "recentMedia": {
-    "recentSong": {
-      "title": "Lilac Wine",
-      "artist": "Jeff Buckley",
-      "albumcoverURL": "https://i.scdn.co/image/ab67616d0000b2736a760642a56847027428cb61"
-    },
-    "recentMovie": {
-      "title": "Andrei Rublev",
-      "rating": 2.5,
-      "year": "1966",
-      "review": "",
-      "watched_date": "2021-04-03T00:00:00.000Z",
-      "imageURL": "https://a.ltrbxd.com/resized/sm/upload/ta/n3/34/bp/andrey-rublyov-0-150-0-225-crop.jpg?k=e601b0cfb7"
-    },
-    "recentBook": "Atlas Shrugged"
-  },
-  "_id": "6087952e0eb94309ef36b53f",
-  "date": "2021-04-27T04:38:06.008Z",
-  "goals": [
-    {
-      "completed": false,
-      "_id": "6087952f0eb94309ef36b540",
-      "goal": "exercise"
-    },
-    {
-      "completed": false,
-      "_id": "6087952f0eb94309ef36b541",
-      "goal": "scriptures"
-    }
-  ],
-  "food": "",
-  "memory": "",
-  "__v": 2,
-  "id": "6087952e0eb94309ef36b53f"
+"date": 1619630886,
+"outfit": {
+"shirt": "",
+"pants": "",
+"shoes": "",
+"watch": ""
+},
+"food": "",
+"memory": "",
+"recentmedia": {
+"recentbook": ""
+},
+"goals": [{
+"goal": "exercise",
+"completed": ""
+},{
+"goal": "scriptures",
+"completed": ""
+}]
 }
